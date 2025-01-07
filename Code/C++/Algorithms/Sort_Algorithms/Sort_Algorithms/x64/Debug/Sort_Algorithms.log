@@ -1,0 +1,7 @@
+﻿  Sort_Algorithms.cpp
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Algorithms\Sort_Algorithms\Sort_Algorithms\Sort_Algorithms.cpp(292,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Algorithms\Sort_Algorithms\Sort_Algorithms\Sort_Algorithms.cpp(375,5): warning C4102: 'https': unreferenced label
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Algorithms\Sort_Algorithms\Sort_Algorithms\Sort_Algorithms.cpp(455,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Algorithms\Sort_Algorithms\Sort_Algorithms\Sort_Algorithms.cpp(457,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Algorithms\Sort_Algorithms\Sort_Algorithms\Sort_Algorithms.cpp(460,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Sort_Algorithms.vcxproj -> C:\Users\RySmi\Documents\Code\VisualStudios\C++\Algorithms\Sort_Algorithms\x64\Debug\Sort_Algorithms.exe
