@@ -1,0 +1,7 @@
+﻿  SearchAlgorithms.cpp
+C:\Users\Ryan\Documents\Code\Algorithms\SearchAlgorithms\SearchAlgorithms\SearchAlgorithms.cpp(342,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ryan\Documents\Code\Algorithms\SearchAlgorithms\SearchAlgorithms\SearchAlgorithms.cpp(435,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ryan\Documents\Code\Algorithms\SearchAlgorithms\SearchAlgorithms\SearchAlgorithms.cpp(456,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ryan\Documents\Code\Algorithms\SearchAlgorithms\SearchAlgorithms\SearchAlgorithms.cpp(464,21): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ryan\Documents\Code\Algorithms\SearchAlgorithms\SearchAlgorithms\SearchAlgorithms.cpp(336): warning C4715: 'binarySearchRecursion': not all control paths return a value
+  SearchAlgorithms.vcxproj -> C:\Users\Ryan\Documents\Code\Algorithms\SearchAlgorithms\x64\Debug\SearchAlgorithms.exe

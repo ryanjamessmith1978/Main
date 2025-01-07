@@ -1,0 +1,4 @@
+﻿  Priority_Scheduling.cpp
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Algorithms\Priority_Scheduling\Priority_Scheduling\Priority_Scheduling.cpp(98,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Algorithms\Priority_Scheduling\Priority_Scheduling\Priority_Scheduling.cpp(98,17): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  Priority_Scheduling.vcxproj -> C:\Users\RySmi\Documents\Code\VisualStudios\C++\Algorithms\Priority_Scheduling\Priority_Scheduling\x64\Debug\Priority_Scheduling.exe
