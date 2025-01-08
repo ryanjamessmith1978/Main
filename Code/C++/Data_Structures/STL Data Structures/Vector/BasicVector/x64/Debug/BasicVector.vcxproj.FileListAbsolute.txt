@@ -1,0 +1,3 @@
+C:\Users\RySmi\Documents\Code\VisualStudios\CPlusPlus\BasicVector\x64\Debug\BasicVector.exe
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\DataStructures\Vector\BasicVector\x64\Debug\BasicVector.exe
+C:\Users\RySmi\Documents\Code\Code\C++\DataStructures\STL Structures\Vector\BasicVector\x64\Debug\BasicVector.exe
