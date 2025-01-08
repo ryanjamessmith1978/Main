@@ -1,0 +1,5 @@
+﻿  Graph_Algorithms.cpp
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\Graphs\Graph_Algorithms\Graph_Algorithms.cpp(177,55): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\Graphs\Graph_Algorithms\Graph_Algorithms.cpp(253,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\Graphs\Graph_Algorithms\Graph_Algorithms.cpp(253,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Graph_Algorithms.vcxproj -> C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\Graphs\Graph_Algorithms\x64\Debug\Graph_Algorithms.exe
