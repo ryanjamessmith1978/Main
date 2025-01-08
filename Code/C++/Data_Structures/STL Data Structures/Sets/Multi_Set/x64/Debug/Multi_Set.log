@@ -1,0 +1,4 @@
+﻿  Multi_Set.cpp
+C:\Users\RySmi\Documents\Code\Code\C++\DataStructures\STL Structures\Multi_Set\Multi_Set.cpp(56,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\RySmi\Documents\Code\Code\C++\DataStructures\STL Structures\Multi_Set\Multi_Set.cpp(97,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Multi_Set.vcxproj -> C:\Users\RySmi\Documents\Code\Code\C++\DataStructures\STL Structures\Multi_Set\x64\Debug\Multi_Set.exe
