@@ -1,0 +1,19 @@
+    <!-- quotes will be a dictionary - {"name": symbol, "price": price, "symbol": symbol}
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Symbol</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for quote in quotes %} # WRONG: quotes is not a list, don't need to iterate over it.  It's a single quote dictionary
+                <tr>                  # the single quote is a dictionary with 3 key-values pairs within that dictionary
+                    <td>{{ quote[name] }}</td>
+                    <td>{{ quote[price] }}</td>
+                    <td>{{ quote[symbol] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table> {% endblock %} -->

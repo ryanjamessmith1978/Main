@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    FUNDS
+{% endblock %}
+
+{% block main %}
+
+    <h1>Add Funds</h1>
+    <form action="/addFunds" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="addedFunds" placeholder="Amount" type="number">
+        </div>
+        <button class="btn btn-primary" type="submit">ADD</button>
+    </form>
+
+{% endblock %}

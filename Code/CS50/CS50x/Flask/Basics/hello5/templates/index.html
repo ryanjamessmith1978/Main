@@ -1,0 +1,23 @@
+{% extends "layout.html" %} <!-- please extend whatever layout.html looks like, original blueprint -->
+
+<!-- Jinja, here is the body of this page you are going to plug into layout-->
+{% block body %} - <!-- the body block for that layout should be everything listed below {endblock} -->
+
+    <form action="/greet" method="post"> <!-- /greet is dependant on what's in app.py -->
+        <!-- verb in the virtual envolop discurssed previously would be Post in, p is caps-->
+        <input autocomplete="off" autofocus name="name" placeholder="Name" type="text">
+        <button type="submit">Greet</button>
+    </form>
+
+{% endblock %}
+
+<!-- How did we ensure that the webapp starts on the form, then goes to the hello page-->
+
+<!-- Answer: whatever you decide your default index route, (the implicit slash),
+    that's what is going to pulled up when the user visits the URL domain name -->
+
+<!-- This as at top of app.py for this example
+@app.route("/")
+def index():
+    return render_template("index.html")
+-->
