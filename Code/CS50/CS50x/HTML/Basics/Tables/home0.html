@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<!-- Demonstrates inline CSS with P tags -->
+
+<html lang="en">
+    <head>
+        <title>css</title>
+    </head>
+    <body>  <!-- style attribute -->
+            <!-- multiple key-value pairs separated with a ; -->
+        <p style="font-size: large; text-align: center;"> <!-- style attribute different than style tag -->
+            John Harvard
+        </p>
+        <p style="font-size: medium; text-align: center;"> <!-- factor out common attribute in CSS (cascading )-->
+            Welcome to my home page!                       <!-- text-align: center x3 can be auto passed to children-->
+        </p>                                               <!-- child will inherit via cascading in CSS-->
+        <p style="font-size: x-large; text-align: center;">
+            Copyright &#169; John Harvard <!-- &#169 is an HTML entity using hex or decimal codes for special chars -->
+        </p>
+    </body>
+</html>

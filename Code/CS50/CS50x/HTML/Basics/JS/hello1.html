@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<!-- Demonstrates onsubmit -->
+<!-- Javascript code is executed client-side in the broswer when clicking on link-->
+<!-- Javascript script is auto-downloaded to clients computer and executes -->
+
+<html lang="en">
+    <head>
+        <script><!-- Tag identifying JavaScript code being added -->
+
+            <!-- JavaScript function code embedded in this HTML page -->
+            function greet()
+            {
+                alert('hello, ' + document.querySelector('#name').value);
+            }
+
+        </script>
+        <title>hello</title>
+    </head>
+    <body>
+        <form onsubmit="greet(); return false;"> <!-- usually gets sent all the way to server, but this is client only-->
+                                                <!-- JavaScript takes control of this form, so server doesn't get it -->
+                                                <!-- return false, doesn't submit form to server, just performs Greet() -->
+            <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
+            <input type="submit"> <!-- No actual code happens because EVENT LISTENERS weren't added in this .HTML -->
+        </form>
+    </body>
+</html>

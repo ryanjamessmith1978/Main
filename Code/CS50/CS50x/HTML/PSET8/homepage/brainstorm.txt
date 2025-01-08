@@ -1,0 +1,28 @@
+### BRAINSTORM ###
+RJSGaming - basic
+
+4 Pages
+(each page has a menu dropdown to other pages)
+
+* Homepage -
+* Programming -
+* Art -
+* Index - allows you to access all pages
+
+Content:
+- Home - highlights - picture links to other pages
+- Programming - 3 videos
+- Art - 3 pieces of Art
+- Index - links to other pages - Resume?
+
+Tags and attributes:
+<video>, <img>, <p>, <div>, <h>, <hl>, <hr>
+
+
+JavaScript Interactivity:
+
+
+
+CSS:
+
+Bootstrap integration
