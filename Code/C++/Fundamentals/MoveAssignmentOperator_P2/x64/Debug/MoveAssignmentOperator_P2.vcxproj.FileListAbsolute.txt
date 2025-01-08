@@ -1,0 +1,2 @@
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures_Cherno\MoveAssignmentOperator_P2\x64\Debug\MoveAssignmentOperator_P2.exe
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\CPP_Basics\MoveAssignmentOperator_P2\x64\Debug\MoveAssignmentOperator_P2.exe

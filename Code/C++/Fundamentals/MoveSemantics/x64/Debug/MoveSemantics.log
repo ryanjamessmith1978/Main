@@ -1,0 +1,3 @@
+﻿  MoveSemantics.cpp
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures_Cherno\MoveSemantics\MoveSemantics.cpp(16,24): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  MoveSemantics.vcxproj -> C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures_Cherno\MoveSemantics\x64\Debug\MoveSemantics.exe
