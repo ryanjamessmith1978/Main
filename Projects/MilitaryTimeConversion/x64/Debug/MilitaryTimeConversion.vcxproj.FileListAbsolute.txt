@@ -1,2 +1,0 @@
-C:\Users\RySmi\Documents\Code\VisualStudios\Projects\CPlusPlus\TestApplications\MilitaryTimeConversion\x64\Debug\MilitaryTimeConversion.exe
-C:\Users\RySmi\Documents\Code\VisualStudios\CPlusPlus\MilitaryTimeConversion\x64\Debug\MilitaryTimeConversion.exe

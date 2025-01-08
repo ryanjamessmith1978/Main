@@ -1,2 +1,0 @@
-C:\Users\Ryan\Documents\Code\Projects\CPlusPlus\BlackJackGame\x64\Debug\BlackJackGame.exe
-C:\Users\RySmi\Documents\Code\VisualStudios\Problem_Examples\BlackJackGame\x64\Debug\BlackJackGame.exe
