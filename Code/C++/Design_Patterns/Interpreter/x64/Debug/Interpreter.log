@@ -1,0 +1,8 @@
+﻿  Interpreter.cpp
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Design_Patterns\Interpreter\Interpreter.cpp(62,19): warning C4114: same type qualifier used more than once
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Design_Patterns\Interpreter\Interpreter.cpp(85,11): warning C4114: same type qualifier used more than once
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Design_Patterns\Interpreter\Interpreter.cpp(113,11): warning C4114: same type qualifier used more than once
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Design_Patterns\Interpreter\Interpreter.cpp(121,11): warning C4114: same type qualifier used more than once
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Design_Patterns\Interpreter\Interpreter.cpp(140,11): warning C4114: same type qualifier used more than once
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Design_Patterns\Interpreter\Interpreter.cpp(167,11): warning C4114: same type qualifier used more than once
+  Interpreter.vcxproj -> C:\Users\RySmi\Documents\Code\VisualStudios\C++\Design_Patterns\Interpreter\x64\Debug\Interpreter.exe
