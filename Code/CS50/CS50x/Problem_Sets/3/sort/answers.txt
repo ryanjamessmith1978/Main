@@ -1,0 +1,15 @@
+// merge sort is fatest in best case
+// bubble sort / selection sort are the same for sorting worst case (n^2)
+// bubble sort is faster if already sorted.
+
+sort1 uses: TODO bubble
+
+How do you know?: TODO
+
+sort2 uses: TODO (MERGE)
+
+How do you know?: TODO
+
+sort3 uses: TODO (selection sort)
+
+How do you know?: TODO
