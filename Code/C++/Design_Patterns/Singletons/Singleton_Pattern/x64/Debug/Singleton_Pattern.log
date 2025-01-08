@@ -1,0 +1,7 @@
+﻿  RandomNumber.cpp
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Design_Patterns\Singletons\Singleton_Pattern\RandomNumber.cpp(23,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Singleton.cpp
+  Singleton_Pattern.cpp
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\Design_Patterns\Singletons\Singleton_Pattern\RandomNumber.cpp(23,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Singleton_Pattern.vcxproj -> C:\Users\RySmi\Documents\Code\VisualStudios\C++\Design_Patterns\Singletons\Singleton_Pattern\x64\Debug\Singleton_Pattern.exe
