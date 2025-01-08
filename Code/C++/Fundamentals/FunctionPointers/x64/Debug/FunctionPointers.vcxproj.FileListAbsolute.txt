@@ -1,0 +1,2 @@
+C:\Users\RySmi\Documents\Code\VisualStudios\CPlusPlus\FunctionPointers\x64\Debug\FunctionPointers.exe
+C:\Users\RySmi\Documents\Code\VisualStudios\C++\CPP_Basics\FunctionPointers\x64\Debug\FunctionPointers.exe
