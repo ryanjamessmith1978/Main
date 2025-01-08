@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <ul>
+        {% for name in registrants %} <!-- registrants is the left hand value associated with \registrants route's render_template 2nd parameter -->
+            <li>
+                {{name}} is registered for {{registrants[name]}}<!-- using templates as templates are intended, I'm going to iterate over every dictionary -->
+            </li> <!-- registrants[name] field is equivalent to the <select name="sport" in index.html -->
+        {% endfor %}
+    </ul>
+{% endblock %}

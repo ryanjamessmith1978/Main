@@ -1,0 +1,11 @@
+{% extends "layout.html" %} <!-- everything in this body should be plugged into the 'Main parent' layout html -->
+
+<!-- body is the same name of the 'FILE' placeholder field name from layout.html -->
+{% block body %} <!-- plug into the layout, everything between these two tags -->
+
+    <form action="/" method="post"> <!-- form submits to itself -->
+        <input name="placeholder" type="text" autocomplete="off" autofocus placeholder="Name">
+        <button type="submit">Greet</button>
+    </form>
+
+{% endblock %}

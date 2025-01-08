@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>hello</title>
+    </head>
+    <body>
+            <!-- you can label the variable name anything you want after block -->
+            <!-- body is a placeholder, just like the placeholder variable field names in previous examples,
+              but body here holds a place for a FILE instead of just a single variable value -->
+
+        {% block body %}{% endblock %} <!-- plug the contents of an entire file here-->
+    </body>                             <!-- so whatever file(s) you are extending layout to,
+                                        execute those files as part of the body of layout -->
+</html>
+
+<!-- FORGOT: endblock is one word, not end block -->

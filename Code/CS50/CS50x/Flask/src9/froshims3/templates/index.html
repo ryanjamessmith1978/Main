@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <!-- /register is a ROUTE that CAN occur IF and when a user clicks on the submit button -->
+    <!-- if submit is clicked, the /register route occurs in app.py -->
+    <form action="/register" method="post"> <!-- no question mark in address bar hints at a post method versus a get methodb-->
+        <input name="name" type="text" placeholder="Name" autocomplete="off" autofocus required>
+        <!-- required attribute is a client side validation, but a user could modify the code source locally-->
+        <!-- by adding an if condition in the /register route in app.py, we are adding server side validation -->
+        <select name="sport">
+            <option disabled selected>Sport</option>
+            {% for sport in sports %}     <!-- this is what the user sees, but why in double braces? -->
+                <option value="{{sport}}">{{ sport }}</option> <!-- this is where you lose me-->
+            {% endfor %}
+        </select>
+        <button type="submit">Register</button>
+    </form>
+
+{% endblock %}

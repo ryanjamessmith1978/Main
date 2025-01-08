@@ -1,0 +1,26 @@
+<!-- ### ROUTES ### -->
+<!-- Creation of a webform that submits whatever the value of text box is to a ROUTE called /greet -->
+<!-- /greet is not a http or domain,  it's assumed it corresponds to whatever my own server's URL is, explicit prefix to the route -->
+<!-- the /greet ROUTE is completely independent of the "greet.html" file.
+    Executing the action of /greet doesn't mean "greet.html" has to be opened -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>hello</title>
+    </head>
+    <body>
+        <!-- In adding an action attribute within the form tag, we are taking control of the back end, using a route -->
+        <form action="/greet" method="get"> <!-- /greet is a route name we created -->
+            <!-- input tags have name attributes as part of the tag, the name in "" is the key -->
+            <input name="name" type="text" autocomplete="off" autofocus placeholder="Name">
+            <!--  <input name="name" ... = args.get("name", "")) - the "name" in double quotes above needs to be the same in app.py -->
+            <button type="submit">Greet</button>
+        </form>
+    </body>
+</html>
+
+<!-- Creation of a webform that submits whatever the value of text box is to a ROUTE called /greet -->
+<!-- /greet is not a http or domain,  it's assumed it corresponds to whatever my own server's URL is, explicit prefix to the route -->

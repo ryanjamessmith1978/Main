@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>shows</title>
+    </head>
+    <body>
+
+        <input autocomplete="off" autofocus placeholder="Query" type="text">
+
+        <ul></ul> <!-- placeholder for the list of titles that gets queried every key press-->
+
+        <script>
+
+            let input = document.querySelector('input');
+            input.addEventListener('input', async function() {
+                let response = await fetch('/search?q=' + input.value);
+                let shows = await response.json();
+                let html = '';
+                <!-- iterate over each id of the shows dictionary, go into each show at it's [id] location("key"), and grab it's title -->
+                <!-- whatever title was returned, add <li> tags before and after title retrieved -->
+                for (let id in shows)
+                {
+                    let title = shows[id].title.replace('<', '&lt;').replace('&', '&amp;');
+                    html += '<li>' + title + '</li>';
+                }
+                document.querySelector('ul').innerHTML = html;
+            });
+        </script>
+
+    </body>
+</html>

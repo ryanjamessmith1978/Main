@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>shows</title>
+    </head>
+    <body>
+
+        <input autocomplete="off" autofocus placeholder="Query" type="search">
+
+        <ul></ul> <!-- list of li's get put here in this PLACEHOLDER -->
+
+        <script>
+
+            <!-- querySelect function gets me a reference to the 'input' text box on the form -->
+            let input = document.querySelector('input');
+
+            <!-- JavaScript to add a listener, listen for an event that involved typing on the keyboard, and call async function -->
+            input.addEventListener('input', async function()
+            {
+                let response = await fetch('/search?q=' + input.value); <!-- fetch uses http to fetch data, creating my own mini.html -->
+                let shows = await response.text();
+                document.querySelector('ul').innerHTML = shows;
+            });
+
+        </script>
+
+    </body>
+</html>

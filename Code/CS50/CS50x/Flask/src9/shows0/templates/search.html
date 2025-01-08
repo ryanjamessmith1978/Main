@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <ul> <!-- unordered list to keep it simple, iterate over every show in the list of shows returned from Query search -->
+        {% for show in shows %}
+            <li>{{ show["title"] }}</li> <!-- output a li item for each show found- -->
+        {% endfor %}
+    </ul>
+
+{% endblock %}
