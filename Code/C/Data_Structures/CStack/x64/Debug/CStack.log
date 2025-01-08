@@ -1,0 +1,17 @@
+﻿  CStack.c
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\CStack.c(7,25): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\CStack.c(7,18): warning C4047: 'initializing': 'Element *' differs in levels of indirection from 'int'
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\CStack.c(25,2): warning C4013: 'free' undefined; assuming extern returning int
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\CStack.c(55,8): warning C4047: '=': 'Element **' differs in levels of indirection from 'Element *'
+  Main.c
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\Main.c(11,28): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\Main.c(12,16): warning C4047: '=': 'void *' differs in levels of indirection from 'int'
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\Main.c(14,17): warning C4022: 'push': pointer mismatch for actual parameter 2
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\Main.c(15,17): warning C4022: 'push': pointer mismatch for actual parameter 2
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\Main.c(16,17): warning C4022: 'push': pointer mismatch for actual parameter 2
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\Main.c(22,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'void *'
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\Main.c(22,10): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'void *'
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\Main.c(26,2): warning C4013: 'system' undefined; assuming extern returning int
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\Main.c(11,18): warning C4047: 'initializing': 'Element *' differs in levels of indirection from 'int'
+  Generating Code...
+  CStack.vcxproj -> C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\CStack\x64\Debug\CStack.exe
