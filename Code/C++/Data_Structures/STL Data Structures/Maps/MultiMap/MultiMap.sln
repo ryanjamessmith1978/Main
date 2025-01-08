@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiMap", "MultiMap\MultiMap.vcxproj", "{0A804F32-5D9A-43DF-B952-07BC8CF3D86D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A804F32-5D9A-43DF-B952-07BC8CF3D86D}.Debug|x64.ActiveCfg = Debug|x64
+		{0A804F32-5D9A-43DF-B952-07BC8CF3D86D}.Debug|x64.Build.0 = Debug|x64
+		{0A804F32-5D9A-43DF-B952-07BC8CF3D86D}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A804F32-5D9A-43DF-B952-07BC8CF3D86D}.Debug|x86.Build.0 = Debug|Win32
+		{0A804F32-5D9A-43DF-B952-07BC8CF3D86D}.Release|x64.ActiveCfg = Release|x64
+		{0A804F32-5D9A-43DF-B952-07BC8CF3D86D}.Release|x64.Build.0 = Release|x64
+		{0A804F32-5D9A-43DF-B952-07BC8CF3D86D}.Release|x86.ActiveCfg = Release|Win32
+		{0A804F32-5D9A-43DF-B952-07BC8CF3D86D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7A3F733-F26B-465D-BBFB-D5666FD8EE44}
+	EndGlobalSection
+EndGlobal

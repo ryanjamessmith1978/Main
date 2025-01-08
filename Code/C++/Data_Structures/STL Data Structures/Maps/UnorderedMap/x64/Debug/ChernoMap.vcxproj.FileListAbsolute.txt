@@ -1,0 +1,3 @@
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures_Cherno\ChernoMap\x64\Debug\ChernoMap.exe
+C:\Users\RySmi\Documents\Code\VisualStudios\DataStructures\ChernoMap\x64\Debug\ChernoMap.exe
+C:\Users\RySmi\Documents\Code\Code\C++\DataStructures\STL Structures\Maps\ChernoMap\x64\Debug\ChernoMap.exe
