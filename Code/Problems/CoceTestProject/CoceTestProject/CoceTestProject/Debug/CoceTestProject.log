@@ -1,0 +1,7 @@
+﻿  Player.cpp
+  Main.cpp
+  Dice.cpp
+c:\users\ryanjsmith\desktop\cocetestproject\cocetestproject\cocetestproject\dice.cpp(8): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  CoceTestProject.vcxproj -> C:\Users\RyanJSmith\Desktop\CoceTestProject\CoceTestProject\Debug\CoceTestProject.exe
+  CoceTestProject.vcxproj -> C:\Users\RyanJSmith\Desktop\CoceTestProject\CoceTestProject\Debug\CoceTestProject.pdb (Full PDB)

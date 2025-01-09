@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\ryanjsmith\desktop\gam330\testprojects\dequescontainers\dequescontainers\source.cpp(22): warning C4018: '<': signed/unsigned mismatch
+  DequesContainers.vcxproj -> C:\Users\RyanJSmith\Desktop\GAM330\TestProjects\DequesContainers\Debug\DequesContainers.exe
+  DequesContainers.vcxproj -> C:\Users\RyanJSmith\Desktop\GAM330\TestProjects\DequesContainers\Debug\DequesContainers.pdb (Full PDB)
