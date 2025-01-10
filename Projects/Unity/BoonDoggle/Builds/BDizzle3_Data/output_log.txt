@@ -1,0 +1,51 @@
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce RTX 4090 Laptop GPU (ID=0x2757)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\Ionic.Zlib.dll (this message is harmless)
+Loading C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\Ionic.Zlib.dll into Unity Child Domain
+Platform assembly: C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\LitJson.dll (this message is harmless)
+Loading C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\LitJson.dll into Unity Child Domain
+Platform assembly: C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\NSpeex.dll (this message is harmless)
+Loading C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\NSpeex.dll into Unity Child Domain
+Platform assembly: C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\Lidgren.Network.dll (this message is harmless)
+Loading C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\Lidgren.Network.dll into Unity Child Domain
+- Completed reload, in  0.035 seconds
+Platform assembly: C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\RySmi\Documents\Resume\RJSGaming Website\Game Programming\Unity Projects\BoonDoggle\bOONdoggle BUILDS\BDizzle3_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1600 120Hz; virtual: 2560x1600 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.417100 ms
+ClientNetwork::RequestNetworkId - Requesting a network id for network sync 878
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Network warning message: Cannot send message, no server connection!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 5984 -> priority: 1 
+  Thread -> id: 347c -> priority: 1 
+  Thread -> id: 5ab8 -> priority: 1 
+  Thread -> id: 1480 -> priority: 1 
+  Thread -> id: 205c -> priority: 1 
+  Thread -> id: 5370 -> priority: 1 
+  Thread -> id: fb8 -> priority: 1 
+  Thread -> id: 3194 -> priority: 1 
