@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tile Wars - A-star.CSharp.Plugins", "Tile Wars - A-star.CSharp.Plugins.csproj", "{85D89E83-F85A-CC9E-B982-32255F2D98A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tile Wars - A-star.CSharp", "Tile Wars - A-star.CSharp.csproj", "{DC48A2AE-0654-3FEF-1920-5E56A0D6FCE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tile Wars - A-star.CSharp.Editor", "Tile Wars - A-star.CSharp.Editor.csproj", "{C35BBEC9-F169-0C06-5C61-4B649C6349BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85D89E83-F85A-CC9E-B982-32255F2D98A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D89E83-F85A-CC9E-B982-32255F2D98A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D89E83-F85A-CC9E-B982-32255F2D98A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D89E83-F85A-CC9E-B982-32255F2D98A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC48A2AE-0654-3FEF-1920-5E56A0D6FCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC48A2AE-0654-3FEF-1920-5E56A0D6FCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC48A2AE-0654-3FEF-1920-5E56A0D6FCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC48A2AE-0654-3FEF-1920-5E56A0D6FCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35BBEC9-F169-0C06-5C61-4B649C6349BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35BBEC9-F169-0C06-5C61-4B649C6349BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35BBEC9-F169-0C06-5C61-4B649C6349BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35BBEC9-F169-0C06-5C61-4B649C6349BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
