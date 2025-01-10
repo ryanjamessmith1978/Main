@@ -1,0 +1,16 @@
+# Unreal Generated Files #
+##########################
+**/Build
+**/Binaries
+**/DerivedCache
+**/Intermediate
+**/Saved
+BattleTank/Content/StarterContent
+BattleTank/BuildingEscape.sdf
+
+##############
+# VS Generated
+##############
+*.VC.db
+*.VC.opendb
+BattleTank/BattleTank.sdf
