@@ -1,0 +1,4 @@
+sceneSetups:
+- path: MainStartScene_Pac_o_ween.unity
+  isLoaded: 1
+  isActive: 1
