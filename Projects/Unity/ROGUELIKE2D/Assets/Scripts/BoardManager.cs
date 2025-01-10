@@ -1,0 +1,156 @@
+﻿using UnityEngine;
+using System;
+using System.Collections;
+using Random = UnityEngine.Random;
+using System.Collections.Generic;
+
+public class BoardManager : MonoBehaviour {
+	
+	[Serializable] // makes the count class serializable
+	public class Count
+	{
+		// set values of min and max when you declare a new count
+		public int minimum;
+		public int maximum;
+		
+		// contructor to set min and max
+		public Count (int min, int max)
+		{
+			minimum = min;
+			maximum = max;
+		}
+	}
+	
+	// variable declarations
+	
+	// dimensions of game board
+	public int columns = 8;
+	public int rows = 8;
+	// specify a random range for how many walls to spawn in each level
+	public Count wallCount = new Count (5, 9);
+	// specify a random range for how many foods to spawn in each level
+	public Count foodCount = new Count (1,5);
+	
+	// variables hold the prefabs that we're going to spawn to make up gameboard
+	
+	// one single exit object
+	public GameObject exit;
+	
+	// arrays of objects, so that we can pass in multiple objects, and choose one of them that we want to spawn among variations
+	// We're going to fill each arrays with our different prefabs to choose between within our inspector
+	public GameObject[] floorTiles;
+	public GameObject[] wallTiles;
+	public GameObject[] foodTiles;
+	public GameObject[] enemyTiles;
+	public GameObject[] outerWallTiles;
+	
+	// private variable that we use to keep hierarchy clean, we're going to child them all to boardholder all the objects don't show up in main hierarchy
+	private Transform boardHolder;
+	// private list of vector3s, use to track all of the different possible positions on our gameboard, and to keep track of whether has spawned in that position or not
+	private List <Vector3> gridPositions = new List<Vector3>();
+	
+	// sets up inner 6x6 square of possible via a list of vector 3 positions to place walls, enemies, or pick ups
+	// leaves a passalbe inner wall just inside the outer boundary of the world
+	void InitializeList()
+	{
+		// start by clearing list of gridpositions
+		gridPositions.Clear ();
+		// nested for loops to fill our list with each of the positions on our game board as a vector 3
+		// start with x axis, for each positions on the x axis perform the for loop inside
+		for (int x = 1; x <columns - 1; x++)
+		{
+			// fills a column depending on the row you are currently in (based on previous for loop) with
+			// a vector3 with our X and our Y values to our list grid positions
+			for (int y = 1; y< rows - 1; y++)
+			{
+				gridPositions.Add(new Vector3(x,y,0f));
+			}
+		}
+	}
+	
+	// sets up outer wall tiles and our background of floor tiles
+	void BoardSetup()
+	{
+		// declares a transform equal the position of a new gameobject Board
+		boardHolder = new GameObject ("Board").transform;
+		
+		// nested for loops for creating an edge of outer walls to block player
+		for (int x = -1; x <columns + 1; x++)
+		{
+			for (int y = -1; y < rows + 1; y++)
+			{
+				// declaring a variable of type GameObject called to Instantiate and setting it to equal 
+				// an index in our array of game objects called floorTiles
+				// choosen randomly between 0 and the length of the array floor tiles - we don't have to pre-specifcy length
+				GameObject toInstantiate = floorTiles[Random.Range (0, floorTiles.Length)];
+				// if in one of the outer wall positions, and if so, choose an outer wall tile to instantiate
+				// and set instantiate to a random wall tile from our outer wall tile array
+				if (x == -1 || x == columns || y == -1 || y == rows)
+					// instantiante that outer wall tile in new game object toInstantiate
+					toInstantiate = outerWallTiles[Random.Range (0, outerWallTiles.Length)];
+				
+				// Once we've chosen which tile we want to instantiate (based on code above), we're going to instantiate it.
+				// Declare a variable of type GameObject called instance and then we're going to assign it to
+				// the object that we're instantiating
+				// Call instantiate, pass to toInstantiate (gameobject variable declared above - the prefab we choose)
+				// at a new Vector3 (based on our current X and Y coordinates inside this inner for loop, and zero for Z axis because of 2d)
+				// Quaternion.identity just means it's going to be instantiated with no rotation
+				// Cast to a GameObject
+				GameObject instance = Instantiate(toInstantiate, new Vector3 (x,y,0f), Quaternion.identity) as GameObject;
+				
+				// set the parent of our newly instantiated gameobject (instance) to our boardholder
+				instance.transform.SetParent (boardHolder);
+			}
+		}
+	}
+	
+	// returns a vector3, in order to be able to spawn an object at a random position, this gets that x-y coord
+	Vector3 RandomPosition()
+	{
+		// generates a random number based between 0 and the number of positions stored in the grid position list
+		int randomIndex = Random.Range (0, gridPositions.Count);
+		// set vector and set it equal to the grid postion stored in our grid position list at our randomly selected index
+		Vector3 randomPosition = gridPositions [randomIndex];
+		// to make sure we don't spawn 2 objects at the same location, we're going to remove that grid position from our list
+		gridPositions.RemoveAt (randomIndex);
+		// returns the randomPosition to use it to spawn an object at a random position
+		return randomPosition;
+		
+	}
+	
+	// uses random position and then actually spawns the tiles provided by random position
+	void LayoutObjectAtRandom(GameObject[] tileArray, int minimum, int maximum)
+	{
+		int objectCount = Random.Range (minimum, maximum + 1);
+		
+		// spawns the number of objects based on object count
+		for (int i = 0; i <objectCount; i++) 
+		{
+			Vector3 randomPosition = RandomPosition ();
+			// chooses a random tile from our array of gameobjects tileArray to spawn
+			// this is done by generating a random number by using Random.Range between 0 and tileArray.length
+			GameObject tileChoice = tileArray[Random.Range (0, tileArray.Length)];
+			// instantiate clones an object into the world
+			// this instantiates the tile we've chosen at our random position
+			Instantiate (tileChoice, randomPosition, Quaternion.identity);
+		}
+	}
+	
+	// single public function that is actually called by the game manager when it's time to set up the board
+	public void SetupScene(int level)
+	{
+		
+		BoardSetup();
+		InitializeList();
+		// pass in array of wall tiles, and min and max wall count values
+		LayoutObjectAtRandom(wallTiles, wallCount.minimum, wallCount.maximum);
+		LayoutObjectAtRandom(foodTiles, foodCount.minimum, foodCount.maximum);
+		//difficulty scales up per level, spawns more enemies each level, cast to an integer
+		int enemyCount = (int)Mathf.Log (level,2f);
+		// layout spawn of enemies at random
+		LayoutObjectAtRandom(enemyTiles, enemyCount, enemyCount);
+		// always spawns exit at the same spot, in the upper right
+		Instantiate(exit, new Vector3(columns - 1, rows - 1, 0f), Quaternion.identity);
+	}
+	
+}
