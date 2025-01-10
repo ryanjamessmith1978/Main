@@ -1,0 +1,76 @@
+﻿using UnityEngine;
+
+using System.Collections;
+
+using System.Collections.
+Generic;
+
+
+
+public class BoardManager : MonoBehaviour {
+
+    private List<GameObject> cameraObjects = new List<GameObject>();
+    private List<CameraController> CC = new List<CameraController>();
+
+    private List<GameObject> playerObjects = new List<GameObject>();
+    private List<CharacterInput> CI = new List<CharacterInput>();      
+
+    public GameObject[] PlayerTransforms;
+    public GameObject[] CameraTransforms;
+
+   void Awake()
+    {        
+        SceneSetup(GameController.GetInstance().GetNumberOfPlayers());
+    }
+	
+	// Update is called once per frame
+	
+   
+    void SceneSetup(int players)
+    {
+        for (int i = 0; i < players; i++)
+        {
+            playerObjects.Add(GameController.GetInstance().PlayerPrefabs[i]);
+            cameraObjects.Add(GameController.GetInstance().Camera1Prefab);
+
+            playerObjects[i] = Instantiate(playerObjects[i], PlayerTransforms[i].transform.position, PlayerTransforms[i].transform.rotation) as GameObject;
+            cameraObjects[i] = Instantiate(cameraObjects[i], CameraTransforms[i].transform.position, CameraTransforms[i].transform.rotation) as GameObject;
+
+            CC.Add(cameraObjects[i].GetComponent<CameraController>());
+            CI.Add(playerObjects[i].GetComponent<CharacterInput>());
+
+            CC[i].SetPlayerTransform(playerObjects[i].transform);
+            CI[i].SetCameraTransform(cameraObjects[i].transform);                        
+        }
+
+        CameraSetup(players);
+    } 
+    
+    
+
+    void CameraSetup(int players)
+    {
+        if (players == 2)
+        {
+            cameraObjects[0].GetComponent<Camera>().rect = new Rect(0, 0.5f, 1.0f, 0.5f);
+            cameraObjects[1].GetComponent<Camera>().rect = new Rect(0, 0, 1.0f, 0.5f);
+        }
+        else if (players == 3)
+        {
+            cameraObjects[0].GetComponent<Camera>().rect = new Rect(0, 0.5f, .5f, 0.5f);
+            cameraObjects[1].GetComponent<Camera>().rect = new Rect(0.5f, 0.5f, 0.5f, 0.5f);
+            cameraObjects[2].GetComponent<Camera>().rect = new Rect(0, 0, 0.5f, 0.5f);            
+        }
+        else if (players == 4)
+        {
+            cameraObjects[0].GetComponent<Camera>().rect = new Rect(0, 0.5f, .5f, 0.5f);
+            cameraObjects[1].GetComponent<Camera>().rect = new Rect(0.5f, 0.5f, 0.5f, 0.5f);
+            cameraObjects[2].GetComponent<Camera>().rect = new Rect(0, 0, 0.5f, 0.5f);
+            cameraObjects[3].GetComponent<Camera>().rect = new Rect(0.5f, 0, 0.5f, 0.5f);
+        }
+
+    }
+       
+
+
+}

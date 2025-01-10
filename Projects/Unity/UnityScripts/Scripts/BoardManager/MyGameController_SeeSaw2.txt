@@ -1,0 +1,62 @@
+﻿using UnityEngine;
+
+using System.Collections;
+
+using UnityEngine.SceneManagement;
+
+
+
+public class GameController : MonoBehaviour {
+
+    
+
+private static GameController instance = null;
+    
+public static GameController GetInstance() { return instance; }
+
+    private static int numberOfPlayers = 1;
+    private int level = 0;
+    
+    public GameObject Camera1Prefab;
+    public GameObject[] PlayerPrefabs;   
+
+    
+
+ void Awake()
+    {
+        if (instance != null)
+        {
+            DestroyImmediate(gameObject);
+        }
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(instance);            
+        }        
+    }
+
+    
+
+ public void SetNumberOfPlayersToLoad(int players)
+    {
+        numberOfPlayers = players;
+        LoadNewLevel();   
+    }
+
+   
+ public int GetNumberOfPlayers()
+    {
+        return numberOfPlayers;
+    }
+
+    
+
+ public void LoadNewLevel()
+    {
+        level++;
+        SceneManager.LoadScene(level);
+    }
+
+    
+
+}
