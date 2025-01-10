@@ -1,0 +1,33 @@
+...Logging started...
+0.0693285: Server Started
+0.7935204: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: SetCurrentPlayer( , 1 )
+
+13.6220209: RespondedAwaitingApproval 3244476645793841809 127.0.0.1
+13.6372276: RespondedConnect 3244476645793841809 127.0.0.1
+13.6400515: Connected 3244476645793841809 127.0.0.1
+13.644733: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: BeginGame(  )
+
+13.6564179: AreaChange 3244476645793841809 127.0.0.1
+26.0457288: RespondedAwaitingApproval -8554106913813682507 127.0.0.1
+26.0626817: RespondedConnect -8554106913813682507 127.0.0.1
+26.0654426: Connected -8554106913813682507 127.0.0.1
+26.0683006: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: EnablePlay(  )
+
+26.0712188: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: SetCurrentPlayer( dDos, 1 )
+
+26.0793893: AreaChange -8554106913813682507 127.0.0.1
+27.106651: RPC ServerOnly NetSyncId: -1 Function: UpdateBoardRequest( 0, 0 )
+
+27.6695343: RPC ServerOnly NetSyncId: -1 Function: UpdateBoardRequest( 1, 0 )
+
+28.0336902: RPC ServerOnly NetSyncId: -1 Function: UpdateBoardRequest( 2, 0 )
+
+35.3635755: RPC ServerOnly NetSyncId: -1 Function: UpdateBoardRequest( 0, 0 )
+
+40.9718917: Disconnected -8554106913813682507 127.0.0.1
+40.9765391: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: PlayerDisconnects(  )
+
+40.9889323: Disconnected 3244476645793841809 127.0.0.1
+40.9930913: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: PlayerDisconnects(  )
+
+44.0372056: Server shutdown

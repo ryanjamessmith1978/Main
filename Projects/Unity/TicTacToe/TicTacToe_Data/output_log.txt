@@ -1,0 +1,189 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Ionic.Zlib.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Ionic.Zlib.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\LitJson.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\LitJson.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\NSpeex.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\NSpeex.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Lidgren.Network.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Lidgren.Network.dll into Unity Child Domain
+- Completed reload, in  0.021 seconds
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.837889 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1fc0 -> priority: 1 
+  Thread -> id: 2268 -> priority: 1 
+Server IP: 127.0.0.1 and the port is 604
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnNetStatusConnected called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnChangeArea called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Ionic.Zlib.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Ionic.Zlib.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\LitJson.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\LitJson.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\NSpeex.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\NSpeex.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Lidgren.Network.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\Lidgren.Network.dll into Unity Child Domain
+- Completed reload, in  0.021 seconds
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.207553 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 64 -> priority: 1 
+  Thread -> id: 3304 -> priority: 1 
+Server IP: 127.0.0.1 and the port is 604
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnNetStatusConnected called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnChangeArea called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+X POS: 1  Y POS: 1  wXth tPOS:he mark 2
+ 1
+  iliena e:heC:/mauiklds
+ 
+(veFi/unaty/b: C:/buiudsiave/arnity/butifacts/gecneratedratmed/crummtimn//runtime/dDebugBindcin gs.ge .cpp 
+L
+ine: 51)
+
+X POS: 0  Y POS: 0  with the mark 1
+ P(S: l0 a Y PO:S: ildslave/unity/arkuild/ rt
+if
+aciles/genaerated/buiommldslave/uenity/building/artgen.cpp Line: rate)
+
+ommon/runtime/DebugBindings.gen.cpp Line: 51)
+
+X POS: 1X  POS: 1  Y POh the  wima the m
+ 
+( 2F
+il
+(ename: C:/b:/buildillavdsunity/buildaartve/unsigenyebuild//aommrtifacts/geneeugBrndingse.gen.cpp Line: e/Debu
+
+gBindings.gen.cpp Line: 51)
+
+X POS: 1  Y POS: 2  wiXh  POS: 1  1
+ PO
+S:ilen ame: the marlkslav
+e/
+(Filename:l /artifadclates/ngtyebuerated/comamon/runtime/DebugBindinngs.gen.cpp Lidne: 51)
+
+cpp Line: 51)
+
+X POS: 0  Y POS: 1  with the XarkP 2
+ 0
+(F  Y aPOS: 1 build sle mare/ un
+it
+(y/build/a rtifacts/lgeeneniatyebd/common/rucntime/eebugeB/common/runtn.cpp Linme/D1)
+
+ebugBindings.gen.cpp Line: 51)
+
+X POS: 0  Y POS: 2 Xwit  the mark 1
+ 
+( 2 Fiith tename:hC: /arku 1
+ 
+(Filenamy/b: Cil/d/ilrtifsacte/u/genity/build/arn/runtimse/Debugtedind/cosmmeo.c/rup Line: 5tim1/D
+
+bugBindings.gen.cpp Line: 51)
+
+X POS: 2  Y POS: 1  with the mark X
+ PO
+(FilSn:me: 2  Y POS: 1  with t/buhe mark 2act
+ gener
+(atedname: C:/buildslaveeunitBy/build/artifactLins/ 51)
+
+ated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+X POS: 1  Y POP: 0  1 it Y POSm 0 rk  
+ it
+h the amrk 1
+ 
+(uiilename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Debugp LinB:indi
+
+s.gen.cpp Line: 51)
+
+X POS: 1  Y POX: 1  w 1  Y POS: 1  wi
+t
+(Filenmame: C:
+/
+(Filenaame: C:/b/uuild/arvt/unity//guinedratteda/cs/generrated/commougBintdingsebgen.cpdpngsi.egen.)pp
+
+ine: 51)
+
+X POS: 1  Y POS: 2  with  the mark 1
+ :
+(Filename: C:/bui1
+ 
+(avie/unity/b:/build/aave/unti/ty/ebuildd/artifaruns/generated/conmmon/.gunn.ime/p eLigBe:nd5ing
+
+s.gen.cpp Line: 51)
+
+OnNetStatusDisconnected called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.750786 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 504.
+Total: 0.923137 ms (FindLiveObjects: 0.073984 ms CreateObjectMapping: 0.049152 ms MarkObjects: 0.788481 ms  DeleteObjects: 0.010496 ms)
+

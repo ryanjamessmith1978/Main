@@ -1,0 +1,201 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\Ionic.Zlib.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\Ionic.Zlib.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\Lidgren.Network.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\Lidgren.Network.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\LitJson.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\LitJson.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\NSpeex.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\NSpeex.dll into Unity Child Domain
+- Completed reload, in  0.051 seconds
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\TicTacToe\TicTacToe_Server_Data\TicTacToe_Server_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.521028 ms
+0.1201911: Server Started
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0.7955968: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: SetCurrentPlayer( , 1 )
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1f40 -> priority: 1 
+  Thread -> id: 146c -> priority: 1 
+13.6241326: RespondedAwaitingApproval 3244476645793841809 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ConnectionRequest for 3244476645793841809: 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Connection request from dDos
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ConnectionApproved for 3244476645793841809
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.6394379: RespondedConnect 3244476645793841809 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.64197: Connected 3244476645793841809 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NUMBER OF CONNECTED PLAYERS IS: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.6478534: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: BeginGame(  )
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.6585693: AreaChange 3244476645793841809 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Client 3244476645793841809 added to area 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+26.0479532: RespondedAwaitingApproval -8554106913813682507 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ConnectionRequest for -8554106913813682507: 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Connection request from dDos2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ConnectionApproved for -8554106913813682507
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+26.064871: RespondedConnect -8554106913813682507 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+26.0673022: Connected -8554106913813682507 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NUMBER OF CONNECTED PLAYERS IS: 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+26.07043: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: EnablePlay(  )
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+26.0731703: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: SetCurrentPlayer( dDos, 1 )
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+26.0860112: AreaChange -8554106913813682507 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Client -8554106913813682507 added to area 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+27.108975: RPC ServerOnly NetSyncId: -1 Function: UpdateBoardRequest( 0, 0 )
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+27.6718762: RPC ServerOnly NetSyncId: -1 Function: UpdateBoardRequest( 1, 0 )
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+28.0361186: RPC ServerOnly NetSyncId: -1 Function: UpdateBoardRequest( 2, 0 )
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+35.3660541: RPC ServerOnly NetSyncId: -1 Function: UpdateBoardRequest( 0, 0 )
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40.9743319: Disconnected -8554106913813682507 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Client -8554106913813682507 has disconnected.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player Two disconnected with name : dDos2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40.979094: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: PlayerDisconnects(  )
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40.9914242: Disconnected 3244476645793841809 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Client 3244476645793841809 has disconnected.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player One disconnected with name : dDos
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+40.9953843: => Outgoing RPC Sent to: AllClients as SingleClient NetSyncId: -1 Function: PlayerDisconnects(  )
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0 connections
+Sent (n/a) bytes in (n/a) messages in (n/a) packets
+Received (n/a) bytes in (n/a) messages in (n/a) packets
+Storage allocated 498 bytes
+Recycled pool 28 bytes
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+44.0398454: Server shutdown
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
