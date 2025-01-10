@@ -1,0 +1,333 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.018 seconds
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.886659 ms
+0: Controller (Xbox 360 Wireless Receiver for Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1: Controller (Xbox One For Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 37c8 -> priority: 1 
+  Thread -> id: 2f84 -> priority: 1 
+4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Controller (Xbox 360 Wireless Receiver for Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Controller (Xbox One For Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Controller (Xbox 360 Wireless Receiver for Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Controller (Xbox One For Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Controller (Xbox 360 Wireless Receiver for Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Controller (Xbox One For Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Controller (Xbox 360 Wireless Receiver for Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Controller (Xbox One For Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnloadTime: 2.807299 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 481.
+Total: 0.161792 ms (FindLiveObjects: 0.021760 ms CreateObjectMapping: 0.013824 ms MarkObjects: 0.118784 ms  DeleteObjects: 0.007168 ms)
+
+0: Controller (Xbox 360 Wireless Receiver for Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1: Controller (Xbox One For Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Hit Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Hit Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Hit Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Hit Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Hit Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Hit Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PlayerOn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.017 seconds
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.675908 ms
+0: Controller (Xbox 360 Wireless Receiver for Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1: Controller (Xbox One For Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2b84 -> priority: 1 
+  Thread -> id: 29d4 -> priority: 1 
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.018 seconds
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\RJSGaming\Desktop\RJSGaming Website\SeeSaw\SeeSaw_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.966019 ms
+0: Controller (Xbox 360 Wireless Receiver for Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1: Controller (Xbox One For Windows)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2b40 -> priority: 1 
+  Thread -> id: 34e0 -> priority: 1 
+Joystick disconnected ("Controller (Xbox 360 Wireless Receiver for Windows)").
+ 
+(Filename:J oyneti:kJ iyc1stecie2 ("Contr
+nl
+er (Xbox 360 Wireless Receiver for Windows)").
+ 
+rF Winndo:w Line:
+ 1
+25i8)
+a
+me:  Line: 1258)
+
+Joystick disconnected ("Controller (Xbox One For Windows)").
+ 
+(Filename:  Line: 1258)
+
+JoyJoycs disccnke ted d"Coiscolner (Xbo  O(e For Windows)").
+ 
+(Fele For Windows)").
+)
+(
+lename:  Line: 1258)
+
