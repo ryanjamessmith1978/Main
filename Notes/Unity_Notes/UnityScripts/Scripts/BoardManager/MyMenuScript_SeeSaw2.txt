@@ -1,0 +1,49 @@
+﻿using UnityEngine;
+
+using System.Collections;
+
+using UnityEngine.UI;
+
+using UnityEngine.SceneManagement;
+
+using System;
+
+
+
+public class MenuScript : MonoBehaviour {
+
+    // variables
+    // Text UI that doubles as buttons (button script component attached via editor)
+    public Text onePlayer;
+    public Text twoPlayers;
+    public Text threePlayers;
+    public Text fourPlayer;
+    public int numOfPlayers;
+    public Canvas TitleCanvas;
+
+
+    	public void NumPlayersToLoad(Text playerText)
+    {
+        numOfPlayers = Convert.ToInt32(playerText.text);
+        
+	LoadFirstLevel(numOfPlayers);
+    }
+
+    
+
+	public void LoadFirstLevel(int pNumOfPlayers)
+    {         
+        UnloadCanvas();        
+        GameController.GetInstance().SetNumberOfPlayersToLoad(pNumOfPlayers);        
+    }
+
+    
+	
+	public void UnloadCanvas()
+    {
+        TitleCanvas.gameObject.SetActive(false);
+    }
+   
+
+
+}

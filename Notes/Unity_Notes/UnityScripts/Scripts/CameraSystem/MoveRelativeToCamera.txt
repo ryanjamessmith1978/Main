@@ -1,0 +1,18 @@
+MovementRelativeToCamera()
+{
+	public Transform cameraTransform;
+	public float speed = 10f;
+	floah h = Input.GetAxis("Horizontal");
+	float v = Input.GetAxis("Vertical");	
+
+	Vector3 forward = cameraTransform.TransformDirection(Vector.forward);
+	forward.y = 0;
+	forward.Normalized;
+
+	Vector3 right = new Vector3(forward.z, 0, -forward.x);
+	Vector3 movement = (right * v + forward * h);
+	movement *= speed;
+
+	PlayerLogic playerlogic = GetComponent<PlayerLogic>();
+	playerlogic.Move(movement);
+}
