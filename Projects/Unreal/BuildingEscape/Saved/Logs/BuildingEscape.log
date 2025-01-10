@@ -1,0 +1,2021 @@
+﻿Log file open, 08/22/16 21:39:23
+LogInit:Display: Running engine for game: BuildingEscape
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1265839355) SRandInit(1265839356).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.066213
+LogInit:Warning: Incompatible or missing module: UE4Editor-BuildingEscape.dll
+Running C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape Development Win64 -project="C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/BuildingEscape.uproject" -editorrecompile -progress -noubtmakefiles -NoHotReloadFromIDE
+@progress push 5%
+Parsing headers for BuildingEscapeEditor
+  Running UnrealHeaderTool "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for BuildingEscapeEditor in 2.1159506 seconds
+@progress pop
+Performing 10 actions (4 in parallel)
+[3/10] Resource ModuleVersionResource.rc.inl
+[2/10] Resource PCLaunch.rc
+PCH.BuildingEscape.h.cpp
+OpenDoor.cpp
+BuildingEscape.generated.cpp
+Grabber.cpp
+BuildingEscapeGameMode.cpp
+PositionReporter.cpp
+BuildingEscape.cpp
+[10/10] Link UE4Editor-BuildingEscape.dll
+   Creating library C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib and object C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.exp
+Total build time: 21.10 seconds
+OCULUS: Info: [CAPI] LibOVR module is located at D:\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.7.0(build = 262766) feature version = 0. Client runs version (prod = 1).1.7.0(build = 262766) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 65.7mm
+OCULUS: Debug: [SharedMemory] Creating factory
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.23-01.39.46:180][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.23-01.39.46:181][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.23-01.39.46:186][  0]LogInit: Computer: RYANJSMITH_PC
+[2016.08.23-01.39.46:186][  0]LogInit: User: RyanJSmith
+[2016.08.23-01.39.46:186][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.23-01.39.46:186][  0]LogInit: High frequency timer resolution =3.906247 MHz
+[2016.08.23-01.39.46:186][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.08.23-01.39.46:186][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.23-01.39.46:186][  0]LogMemory: Process Physical Memory: 195.72 MB used, 195.72 MB peak
+[2016.08.23-01.39.46:186][  0]LogMemory: Process Virtual Memory: 197.79 MB used, 197.79 MB peak
+[2016.08.23-01.39.46:186][  0]LogMemory: Physical Memory: 2858.20 MB used, 16326.53 MB total
+[2016.08.23-01.39.46:186][  0]LogMemory: Virtual Memory: 599.80 MB used, 134217728.00 MB total
+[2016.08.23-01.39.46:223][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.23-01.39.46:853][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.23-01.39.46:868][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.08.23-01.39.46:868][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.08.23-01.39.46:869][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.23-01.39.46:869][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.23-01.39.46:869][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.23-01.39.46:871][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.23-01.39.46:871][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.23-01.39.46:872][  0]LogWindows: EnumDisplayDevices:
+[2016.08.23-01.39.46:872][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2016.08.23-01.39.46:872][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2016.08.23-01.39.46:872][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.08.23-01.39.46:872][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.08.23-01.39.46:872][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.08.23-01.39.46:872][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.08.23-01.39.46:872][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2016.08.23-01.39.46:872][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2016.08.23-01.39.46:872][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.23-01.39.46:880][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.23-01.39.46:897][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.08.23-01.39.46:897][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/6432/).
+[2016.08.23-01.39.46:897][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/RYANJS~1/AppData/Local/Temp/UnrealShaderWorkingDir/0088960B4D3B228DAE1C7A8104BC24F8/'.
+[2016.08.23-01.39.46:897][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.23-01.39.47:685][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.23-01.39.47:693][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.23-01.39.47:701][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.23-01.39.47:709][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.23-01.39.47:720][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.23-01.39.47:726][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.23-01.39.47:733][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.23-01.39.47:738][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.23-01.39.47:744][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(17038all)
+[2016.08.23-01.39.47:744][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.23-01.39.47:750][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.23-01.39.47:756][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.23-01.39.47:769][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.23-01.39.47:769][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.23-01.39.47:769][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.23-01.39.47:789][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.23-01.39.47:794][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.23-01.39.47:800][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.23-01.39.47:805][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.23-01.39.47:811][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.23-01.39.47:811][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.23-01.39.47:899][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.23-01.39.47:952][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/RyanJSmith/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.23-01.39.47:953][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RyanJSmith/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.23-01.39.47:953][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.23-01.39.47:953][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.23-01.39.47:953][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.23-01.39.47:953][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.23-01.39.47:972][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.23-01.39.47:984][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RyanJSmith/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.23-01.39.48:153][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.23-01.39.48:154][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.23-01.39.48:292][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.23-01.39.48:292][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.23-01.39.48:292][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.23-01.39.48:500][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2016.08.23-01.39.48:530][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.026862 seconds
+[2016.08.23-01.39.48:534][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.08.23-01.39.48:534][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.08.23-01.39.48:534][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.23-01.39.48:540][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.23-01.39.48:675][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.23-01.39.48:675][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.23-01.39.49:145][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.08.23-01.39.49:152][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.23-01.39.49:339][  0]SourceControl: Info Source control is disabled
+[2016.08.23-01.39.49:357][  0]SourceControl: Info Source control is disabled
+[2016.08.23-01.39.49:363][  0]SourceControl: Info Source control is disabled
+[2016.08.23-01.39.49:368][  0]SourceControl: Info Source control is disabled
+[2016.08.23-01.39.49:535][  0]LogEngine: Initializing Engine...
+[2016.08.23-01.39.54:548][  0]LogHMD: SteamVR failed to initialize.  Err: 308
+[2016.08.23-01.39.59:561][  0]LogHMD: SteamVR failed to initialize.  Err: 308
+[2016.08.23-01.39.59:561][  0]LogHMD: Oculus plugin initialized. Version: 4.12.5-3039270+++UE4+Release-4.12, LibOVR: 1.7.0, SDK: 1.3.2, built Jul  6 2016, 09:11:15
+[2016.08.23-01.39.59:562][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2016.08.23-01.39.59:562][  0]OCULUS: Info: IAD changed to 65.7mm
+[2016.08.23-01.39.59:562][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(17038all)
+[2016.08.23-01.39.59:665][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.23-01.39.59:674][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.23-01.39.59:687][  0]LogInit: FAudioDevice initialized.
+[2016.08.23-01.39.59:708][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/RyanJSmith/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.23-01.39.59:712][  0]LogInit: Texture streaming: Enabled
+[2016.08.23-01.39.59:728][  0]LogInit: Transaction tracking system initialized
+[2016.08.23-01.39.59:747][  0]BlueprintLog: New page: Editor Load
+[2016.08.23-01.39.59:801][  0]LocalizationService: Info Localization service is disabled
+[2016.08.23-01.39.59:847][  0]LogConsoleResponse:Display: 
+[2016.08.23-01.39.59:918][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.23-01.39.59:918][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.23-01.39.59:981][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/' took 0.01s
+[2016.08.23-01.39.59:981][  0]SourceControl: Info Source control is disabled
+[2016.08.23-01.39.59:981][  0]Cmd: MAP LOAD FILE="../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.23-01.39.59:981][  0]LightingResults: New page: Lighting Build
+[2016.08.23-01.39.59:983][  0]MapCheck: New page: Map Check
+[2016.08.23-01.39.59:983][  0]LightingResults: New page: Lighting Build
+[2016.08.23-01.40.00:231][  0]LogAIModule: Creating AISystem for world Level1
+[2016.08.23-01.40.00:253][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.23-01.40.00:253][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.23-01.40.00:276][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.018ms to complete.
+[2016.08.23-01.40.00:276][  0]LogFileHelpers: Loading map 'Level1' took 0.295
+[2016.08.23-01.40.00:353][  0]LogCollectionManager: Loaded 1 collections in 0.001891 seconds
+[2016.08.23-01.40.00:396][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
+[2016.08.23-01.40.00:396][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Developers/RyanJSmith/Collections/' took 0.01s
+[2016.08.23-01.40.00:396][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
+[2016.08.23-01.40.00:396][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
+[2016.08.23-01.40.00:396][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.08.23-01.40.00:403][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2067 classes and 379 folders.
+[2016.08.23-01.40.00:406][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.23-01.40.00:406][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.23-01.40.00:406][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.08.23-01.40.00:411][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.08.23-01.40.00:432][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.08.23-01.40.00:523][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.23-01.40.00:526][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.23-01.40.00:552][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.08.23-01.40.00:552][  0]LogLoad: Full Startup: 37.36 seconds (BP compile: 0.03 seconds)
+[2016.08.23-01.40.00:552][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.23-01.40.00:552][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.23-01.40.00:561][  0]LogOcInput: OculusInput pre-init called
+[2016.08.23-01.40.00:568][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.7.0
+[2016.08.23-01.40.00:588][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.08.23-01.40.00:714][  0]LogRenderer: Reallocating scene render targets to support 1180x688 (Frame:2).
+[2016.08.23-01.40.00:766][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.08.23-01.40.00:775][  1]LogAssetRegistry: Asset discovery search completed in 12.2979 seconds
+[2016.08.23-01.40.00:775][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000003 seconds (found 0 objects)
+[2016.08.23-01.40.00:775][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000070 seconds (updated 0 objects)
+[2016.08.23-01.40.08:767][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.23-01.40.08:768][214]OCULUS: Debug: [HMDState] Using default profile default
+[2016.08.23-01.40.08:768][214]OCULUS: Info: IAD changed to 65.7mm
+[2016.08.23-01.40.08:768][214]LogHMD: New ovr session is created
+[2016.08.23-01.40.08:768][214]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.08.23-01.40.08:768][214]LogApp: UseVRFocus has changed to 1
+[2016.08.23-01.40.08:768][214]LogApp: HasVRFocus has changed to 1
+[2016.08.23-01.40.08:768][214]LogApp: UseVRFocus has changed to 0
+[2016.08.23-01.40.08:768][214]LogApp: HasVRFocus has changed to 0
+[2016.08.23-01.40.08:769][214]PIE: New page: PIE session: Level1 (Aug 22, 2016, 4:40:08 PM)
+[2016.08.23-01.40.08:769][214]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.08.23-01.40.08:781][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012329s)
+[2016.08.23-01.40.08:782][214]LogAIModule: Creating AISystem for world Level1
+[2016.08.23-01.40.08:782][214]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2016.08.23-01.40.08:783][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.013513s)
+[2016.08.23-01.40.08:795][214]LogApp: UseVRFocus has changed to 1
+[2016.08.23-01.40.08:795][214]LogApp: HasVRFocus has changed to 1
+[2016.08.23-01.40.08:795][214]LogApp: UseVRFocus has changed to 0
+[2016.08.23-01.40.08:795][214]LogApp: HasVRFocus has changed to 0
+[2016.08.23-01.40.08:801][214]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.23-01.40.08:815][214]LogInit: FAudioDevice initialized.
+[2016.08.23-01.40.08:882][214]LogWorld: Game class is 'BP_MyGameMode_C'
+[2016.08.23-01.40.08:890][214]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.08.22-21.40.08
+[2016.08.23-01.40.08:891][214]LogWorld: Bringing up level for play took: 0.007287
+[2016.08.23-01.40.08:895][214]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2016.08.23-01.40.08:895][214]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.268
+[2016.08.23-01.40.10:246][374]LogHMD: Destroying ovr session
+[2016.08.23-01.40.10:249][374]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(b0466ll)
+[2016.08.23-01.40.15:089][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.23-01.40.15:089][943]OCULUS: Debug: [HMDState] Using default profile default
+[2016.08.23-01.40.15:089][943]OCULUS: Info: IAD changed to 65.7mm
+[2016.08.23-01.40.15:090][943]LogHMD: New ovr session is created
+[2016.08.23-01.40.15:090][943]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.08.23-01.40.15:090][943]LogApp: UseVRFocus has changed to 1
+[2016.08.23-01.40.15:090][943]LogApp: HasVRFocus has changed to 1
+[2016.08.23-01.40.15:090][943]LogApp: UseVRFocus has changed to 0
+[2016.08.23-01.40.15:090][943]LogApp: HasVRFocus has changed to 0
+[2016.08.23-01.40.15:090][943]PIE: New page: PIE session: Level1 (Aug 22, 2016, 4:40:15 PM)
+[2016.08.23-01.40.15:090][943]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.08.23-01.40.15:101][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010824s)
+[2016.08.23-01.40.15:101][943]LogAIModule: Creating AISystem for world Level1
+[2016.08.23-01.40.15:101][943]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2016.08.23-01.40.15:102][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.011688s)
+[2016.08.23-01.40.15:109][943]LogApp: UseVRFocus has changed to 1
+[2016.08.23-01.40.15:109][943]LogApp: HasVRFocus has changed to 1
+[2016.08.23-01.40.15:109][943]LogApp: UseVRFocus has changed to 0
+[2016.08.23-01.40.15:109][943]LogApp: HasVRFocus has changed to 0
+[2016.08.23-01.40.15:115][943]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.23-01.40.15:126][943]LogInit: FAudioDevice initialized.
+[2016.08.23-01.40.15:171][943]LogWorld: Game class is 'BP_MyGameMode_C'
+[2016.08.23-01.40.15:178][943]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.08.22-21.40.15
+[2016.08.23-01.40.15:179][943]LogWorld: Bringing up level for play took: 0.006679
+[2016.08.23-01.40.15:180][943]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.017
+[2016.08.23-01.40.17:260][192]LogHMD: Destroying ovr session
+[2016.08.23-01.40.17:264][192]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(b0466ll)
+[2016.08.23-01.40.18:807][371]Cmd: SELECT NONE
+[2016.08.23-01.40.19:249][424]Cmd: SELECT NONE
+[2016.08.23-01.40.19:996][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.23-01.40.19:997][512]OCULUS: Debug: [HMDState] Using default profile default
+[2016.08.23-01.40.19:997][512]OCULUS: Info: IAD changed to 65.7mm
+[2016.08.23-01.40.19:998][512]LogHMD: New ovr session is created
+[2016.08.23-01.40.19:998][512]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.08.23-01.40.19:998][512]LogApp: UseVRFocus has changed to 1
+[2016.08.23-01.40.19:998][512]LogApp: HasVRFocus has changed to 1
+[2016.08.23-01.40.19:998][512]LogApp: UseVRFocus has changed to 0
+[2016.08.23-01.40.19:998][512]LogApp: HasVRFocus has changed to 0
+[2016.08.23-01.40.19:998][512]PIE: New page: PIE session: Level1 (Aug 22, 2016, 4:40:19 PM)
+[2016.08.23-01.40.19:998][512]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.08.23-01.40.20:009][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010776s)
+[2016.08.23-01.40.20:010][512]LogAIModule: Creating AISystem for world Level1
+[2016.08.23-01.40.20:010][512]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2016.08.23-01.40.20:010][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.011896s)
+[2016.08.23-01.40.20:016][512]LogApp: UseVRFocus has changed to 1
+[2016.08.23-01.40.20:016][512]LogApp: HasVRFocus has changed to 1
+[2016.08.23-01.40.20:016][512]LogApp: UseVRFocus has changed to 0
+[2016.08.23-01.40.20:016][512]LogApp: HasVRFocus has changed to 0
+[2016.08.23-01.40.20:022][512]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.23-01.40.20:033][512]LogInit: FAudioDevice initialized.
+[2016.08.23-01.40.20:084][512]LogWorld: Game class is 'BP_MyGameMode_C'
+[2016.08.23-01.40.20:092][512]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.08.22-21.40.20
+[2016.08.23-01.40.20:092][512]LogWorld: Bringing up level for play took: 0.007032
+[2016.08.23-01.40.20:093][512]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.93
+[2016.08.23-01.40.21:459][675]LogClass:Warning: SM_TableRound_5
+[2016.08.23-01.40.22:681][822]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:689][823]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:697][824]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:705][825]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:714][826]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:722][827]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:730][828]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:739][829]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:747][830]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:756][831]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:764][832]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:772][833]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:781][834]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:789][835]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:797][836]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:806][837]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:814][838]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:822][839]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:830][840]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:839][841]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:847][842]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:855][843]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:864][844]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:872][845]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:880][846]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:889][847]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:897][848]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:906][849]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:914][850]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:922][851]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:931][852]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:939][853]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:947][854]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:955][855]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:964][856]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:972][857]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:980][858]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:989][859]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.22:997][860]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:005][861]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:014][862]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:022][863]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:030][864]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:038][865]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:047][866]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:055][867]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:063][868]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:072][869]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:080][870]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:088][871]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:097][872]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:105][873]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:113][874]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:122][875]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:130][876]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:139][877]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:147][878]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:155][879]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:163][880]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:172][881]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:181][882]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:189][883]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:198][884]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:206][885]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:214][886]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:223][887]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:231][888]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:239][889]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:248][890]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:256][891]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:264][892]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:273][893]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:281][894]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:289][895]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:297][896]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:306][897]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:314][898]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:323][899]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:331][900]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:339][901]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:348][902]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:356][903]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:364][904]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:373][905]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:381][906]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:389][907]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:397][908]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:406][909]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:414][910]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:422][911]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:431][912]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:439][913]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:447][914]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:456][915]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:464][916]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:472][917]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:481][918]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:489][919]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:497][920]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:506][921]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:514][922]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:522][923]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:531][924]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:539][925]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:547][926]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:556][927]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:564][928]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:572][929]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:581][930]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:589][931]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:597][932]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:606][933]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:614][934]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:623][935]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:631][936]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:639][937]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:647][938]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:656][939]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:664][940]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:672][941]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:681][942]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:689][943]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:697][944]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:706][945]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:714][946]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:722][947]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:731][948]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:739][949]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:747][950]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:756][951]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:764][952]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:772][953]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:781][954]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:789][955]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:797][956]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:806][957]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:814][958]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:822][959]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:831][960]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:839][961]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:847][962]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:855][963]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:864][964]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:872][965]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:880][966]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:889][967]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:897][968]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:905][969]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:914][970]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:922][971]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:930][972]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:939][973]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:947][974]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:955][975]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:964][976]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:972][977]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:980][978]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:989][979]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.23:997][980]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:005][981]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:014][982]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:022][983]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:030][984]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:039][985]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:047][986]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:055][987]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:064][988]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:072][989]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:080][990]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:089][991]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:097][992]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:105][993]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:114][994]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:122][995]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:130][996]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:139][997]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:147][998]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:155][999]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:164][  0]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:172][  1]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:180][  2]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:189][  3]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:197][  4]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:205][  5]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:214][  6]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:222][  7]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:230][  8]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:240][  9]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:248][ 10]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:256][ 11]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:265][ 12]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:273][ 13]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:281][ 14]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:290][ 15]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:298][ 16]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:306][ 17]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:315][ 18]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:323][ 19]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:331][ 20]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:339][ 21]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:348][ 22]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:356][ 23]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:364][ 24]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:373][ 25]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:381][ 26]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:390][ 27]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:398][ 28]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:406][ 29]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:414][ 30]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:423][ 31]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:431][ 32]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:439][ 33]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:448][ 34]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:456][ 35]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:464][ 36]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:473][ 37]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:481][ 38]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:489][ 39]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:497][ 40]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:506][ 41]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:514][ 42]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:523][ 43]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:531][ 44]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:540][ 45]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:548][ 46]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:556][ 47]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:564][ 48]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:573][ 49]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:581][ 50]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:589][ 51]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:598][ 52]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:606][ 53]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:614][ 54]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:623][ 55]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:631][ 56]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:639][ 57]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:648][ 58]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:656][ 59]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:664][ 60]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:673][ 61]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:681][ 62]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:689][ 63]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:698][ 64]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:706][ 65]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:714][ 66]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:723][ 67]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:731][ 68]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:739][ 69]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:748][ 70]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:756][ 71]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:764][ 72]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:772][ 73]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:781][ 74]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:789][ 75]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:797][ 76]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:806][ 77]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:814][ 78]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:823][ 79]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:831][ 80]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:839][ 81]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:848][ 82]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:856][ 83]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:864][ 84]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:873][ 85]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:881][ 86]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:889][ 87]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:897][ 88]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:906][ 89]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:914][ 90]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:922][ 91]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:931][ 92]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:941][ 93]LogClass:Warning: SM_Chair_2
+[2016.08.23-01.40.24:941][ 93]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:947][ 94]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:956][ 95]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:964][ 96]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:972][ 97]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:981][ 98]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:989][ 99]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.24:997][100]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:006][101]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:014][102]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:022][103]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:030][104]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:039][105]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:047][106]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:055][107]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:064][108]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:072][109]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:080][110]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:089][111]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:097][112]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:105][113]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:114][114]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:122][115]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:130][116]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:139][117]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:147][118]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:155][119]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:164][120]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:172][121]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:180][122]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:189][123]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:197][124]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:205][125]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:214][126]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:222][127]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:230][128]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:239][129]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:247][130]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:255][131]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:264][132]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:273][133]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:281][134]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:290][135]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:298][136]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:306][137]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:315][138]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:323][139]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:331][140]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:340][141]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:348][142]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:356][143]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:365][144]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:373][145]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:381][146]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:389][147]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:398][148]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:406][149]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:414][150]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:423][151]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:431][152]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:439][153]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:448][154]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:456][155]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:464][156]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:473][157]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:481][158]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:490][159]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:498][160]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:506][161]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:515][162]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:523][163]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:531][164]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:539][165]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:548][166]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:556][167]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:564][168]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:573][169]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:581][170]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:590][171]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:598][172]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:606][173]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:614][174]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:623][175]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:631][176]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:639][177]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:648][178]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:656][179]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:664][180]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:673][181]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:681][182]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:689][183]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:698][184]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:706][185]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:714][186]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:723][187]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:731][188]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:739][189]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:747][190]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:756][191]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:764][192]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:773][193]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:781][194]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:789][195]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:797][196]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:806][197]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:814][198]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:823][199]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:831][200]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:839][201]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:848][202]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:856][203]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:864][204]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:873][205]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:881][206]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:889][207]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:897][208]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:906][209]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:914][210]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:923][211]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:931][212]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:939][213]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:947][214]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:956][215]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:964][216]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:972][217]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:981][218]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:989][219]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.25:997][220]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:006][221]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:014][222]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:022][223]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:031][224]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:039][225]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:047][226]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:056][227]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:064][228]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:072][229]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:081][230]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:089][231]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:097][232]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:105][233]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:114][234]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:122][235]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:130][236]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:139][237]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:147][238]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:156][239]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:164][240]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:172][241]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:180][242]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:189][243]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:197][244]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:205][245]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:214][246]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:222][247]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:230][248]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:239][249]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:247][250]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:255][251]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:264][252]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:272][253]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:280][254]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:281][254]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:289][255]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:289][255]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:297][256]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:297][256]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:305][257]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:306][257]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:314][258]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:314][258]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:323][259]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:323][259]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:331][260]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:331][260]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:340][261]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:340][261]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:348][262]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:348][262]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:356][263]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:357][263]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:365][264]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:365][264]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:373][265]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:373][265]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:374][265]LogAudio:Warning: Detected orphaned looping sound 'Starter_Birds01'.
+[2016.08.23-01.40.26:382][266]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:382][266]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:390][267]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:390][267]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:398][268]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:398][268]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:406][269]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:407][269]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:415][270]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:415][270]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:423][271]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:423][271]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:431][272]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:431][272]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:440][273]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:440][273]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:448][274]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:448][274]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:456][275]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:456][275]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:465][276]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:465][276]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:473][277]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:473][277]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:481][278]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:481][278]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:490][279]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:490][279]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:498][280]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:498][280]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:506][281]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:506][281]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:514][282]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:515][282]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:523][283]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:523][283]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:531][284]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:531][284]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:539][285]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:540][285]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:548][286]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:548][286]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:556][287]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:556][287]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:564][288]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:564][288]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:573][289]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:573][289]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:581][290]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:581][290]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:589][291]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:589][291]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:598][292]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:598][292]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:606][293]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:606][293]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:614][294]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:614][294]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:623][295]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:623][295]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:631][296]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:631][296]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:639][297]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:640][297]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:648][298]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:648][298]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:656][299]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:656][299]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:664][300]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:664][300]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:673][301]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:673][301]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:681][302]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:681][302]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:689][303]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:690][303]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:698][304]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:698][304]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:706][305]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:706][305]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:714][306]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:714][306]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:722][307]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:723][307]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:731][308]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:731][308]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:739][309]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:739][309]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:748][310]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:748][310]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:756][311]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:756][311]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:764][312]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:764][312]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:772][313]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:773][313]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:781][314]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:781][314]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:789][315]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:789][315]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:797][316]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:797][316]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:806][317]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:806][317]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:814][318]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:814][318]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:822][319]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:823][319]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:831][320]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:831][320]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:839][321]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:839][321]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:847][322]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:848][322]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:856][323]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:856][323]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:864][324]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:864][324]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:872][325]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:873][325]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:881][326]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:881][326]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:889][327]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:889][327]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:897][328]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:898][328]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:906][329]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:906][329]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:914][330]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:914][330]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:923][331]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:923][331]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:931][332]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:931][332]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:939][333]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:939][333]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:947][334]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:948][334]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:956][335]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:956][335]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:964][336]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:964][336]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:972][337]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:973][337]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:981][338]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:981][338]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:989][339]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:989][339]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.26:997][340]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.26:997][340]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:006][341]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:006][341]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:014][342]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:014][342]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:022][343]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:022][343]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:031][344]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:031][344]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:039][345]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:039][345]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:047][346]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:047][346]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:056][347]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:056][347]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:064][348]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:064][348]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:072][349]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:073][349]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:081][350]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:081][350]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:089][351]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:089][351]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:097][352]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:098][352]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:106][353]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:106][353]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:114][354]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:114][354]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:123][355]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:123][355]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:131][356]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:131][356]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:139][357]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:139][357]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:147][358]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:148][358]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:156][359]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:156][359]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:164][360]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:164][360]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:172][361]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:172][361]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:180][362]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:181][362]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:189][363]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:189][363]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:197][364]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:197][364]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:206][365]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:206][365]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:214][366]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:214][366]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:222][367]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:222][367]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:231][368]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:231][368]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:239][369]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:239][369]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:247][370]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:247][370]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:256][371]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:256][371]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:264][372]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:264][372]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:272][373]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:272][373]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:281][374]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:281][374]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:289][375]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:289][375]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:297][376]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:297][376]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:305][377]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:306][377]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:314][378]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:314][378]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:322][379]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:322][379]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:330][380]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:331][380]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:340][381]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:340][381]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:347][382]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:347][382]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:356][383]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:356][383]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:365][384]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:365][384]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:373][385]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:373][385]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:381][386]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:382][386]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:390][387]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:390][387]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:398][388]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:398][388]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:406][389]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:406][389]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:415][390]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:415][390]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:423][391]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:423][391]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:431][392]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:432][392]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:440][393]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:440][393]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:448][394]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:448][394]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:456][395]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:456][395]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:465][396]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:465][396]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:473][397]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:473][397]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:481][398]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:482][398]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:490][399]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:490][399]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:498][400]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:498][400]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:506][401]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:507][401]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:515][402]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:515][402]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:523][403]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:523][403]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:531][404]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:532][404]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:540][405]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:540][405]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:548][406]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:548][406]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:556][407]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:557][407]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:565][408]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:565][408]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:573][409]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:573][409]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:581][410]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:581][410]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:590][411]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:590][411]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:598][412]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:598][412]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:606][413]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:606][413]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:615][414]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:615][414]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:623][415]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:623][415]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:631][416]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:631][416]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:639][417]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:640][417]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:648][418]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:648][418]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:656][419]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:656][419]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:664][420]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:665][420]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:673][421]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:673][421]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:681][422]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:681][422]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:690][423]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:690][423]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:698][424]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:698][424]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:706][425]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:706][425]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:714][426]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:715][426]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:723][427]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:723][427]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:731][428]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:731][428]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:739][429]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:739][429]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:748][430]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:748][430]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:756][431]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:756][431]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:764][432]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:765][432]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:773][433]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:773][433]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:781][434]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:781][434]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:789][435]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:790][435]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:798][436]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:798][436]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:806][437]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:806][437]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:814][438]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:815][438]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:823][439]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:823][439]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:831][440]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:831][440]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:839][441]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:840][441]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:848][442]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:848][442]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:856][443]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:856][443]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:864][444]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:865][444]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:873][445]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:873][445]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:881][446]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:881][446]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:889][447]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:890][447]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:898][448]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:898][448]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:906][449]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:906][449]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:915][450]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:915][450]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:923][451]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:923][451]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:931][452]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:931][452]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:940][453]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:940][453]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:948][454]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:948][454]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:956][455]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:956][455]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:964][456]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:965][456]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:973][457]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:973][457]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:981][458]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:981][458]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:989][459]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:990][459]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.27:998][460]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.27:998][460]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:006][461]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:006][461]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:014][462]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:014][462]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:023][463]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:023][463]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:031][464]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:031][464]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:039][465]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:040][465]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:048][466]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:048][466]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:056][467]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:056][467]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:064][468]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:065][468]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:073][469]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:073][469]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:081][470]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:081][470]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:089][471]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:089][471]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:097][472]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:098][472]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:106][473]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:106][473]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:114][474]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:114][474]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:122][475]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:123][475]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:131][476]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:131][476]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:139][477]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:139][477]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:147][478]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:147][478]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:156][479]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:156][479]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:164][480]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:164][480]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:172][481]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:173][481]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:181][482]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:181][482]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:189][483]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:189][483]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:197][484]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:197][484]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:206][485]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:206][485]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:214][486]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:214][486]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:222][487]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:222][487]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:231][488]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:231][488]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:239][489]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:239][489]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:247][490]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:247][490]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:256][491]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:256][491]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:264][492]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:264][492]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:272][493]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:272][493]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:281][494]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:281][494]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:289][495]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:289][495]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:297][496]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:297][496]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:306][497]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:306][497]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:314][498]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:314][498]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:322][499]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:322][499]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:331][500]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:331][500]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:339][501]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:339][501]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:347][502]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:347][502]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:356][503]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:356][503]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:364][504]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:364][504]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:372][505]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:372][505]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:381][506]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:381][506]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:389][507]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:389][507]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:398][508]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:398][508]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:407][509]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:407][509]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:415][510]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:415][510]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:423][511]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:423][511]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:431][512]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:432][512]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:440][513]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:440][513]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:448][514]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:448][514]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:456][515]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:457][515]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:465][516]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:465][516]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:473][517]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:473][517]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:481][518]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:482][518]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:490][519]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:490][519]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:498][520]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:498][520]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:506][521]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:507][521]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:515][522]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:515][522]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:523][523]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:523][523]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:531][524]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:531][524]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:540][525]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:540][525]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:548][526]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:548][526]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:556][527]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:556][527]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:565][528]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:565][528]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:573][529]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:573][529]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:581][530]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:582][530]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:590][531]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:590][531]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:598][532]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:598][532]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:606][533]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:607][533]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:615][534]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:615][534]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:623][535]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:623][535]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:631][536]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:631][536]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:640][537]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:640][537]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:648][538]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:648][538]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:656][539]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:656][539]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:665][540]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:665][540]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:673][541]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:673][541]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:681][542]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:681][542]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:690][543]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:690][543]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:698][544]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:698][544]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:706][545]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:706][545]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:715][546]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:715][546]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:723][547]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:723][547]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:731][548]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:731][548]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:740][549]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:740][549]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:748][550]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:748][550]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:756][551]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:756][551]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:765][552]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:765][552]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:773][553]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:773][553]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:781][554]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:781][554]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:789][555]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:790][555]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:798][556]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:798][556]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:806][557]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:806][557]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:815][558]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:815][558]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:823][559]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:823][559]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:831][560]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:832][560]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:840][561]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:840][561]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:848][562]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:848][562]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:856][563]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:856][563]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:865][564]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:865][564]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:873][565]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:873][565]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:881][566]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:881][566]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:890][567]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:890][567]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:898][568]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:898][568]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:906][569]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:906][569]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:914][570]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:914][570]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:923][571]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:923][571]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:931][572]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:931][572]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:940][573]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:940][573]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:948][574]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:948][574]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:956][575]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:956][575]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:964][576]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:964][576]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:972][577]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:973][577]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:981][578]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:981][578]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:989][579]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:990][579]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.28:998][580]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.28:998][580]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:006][581]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:006][581]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:014][582]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:014][582]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:023][583]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:023][583]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:031][584]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:031][584]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:039][585]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:040][585]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:048][586]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:048][586]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:056][587]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:056][587]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:065][588]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:065][588]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:073][589]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:073][589]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:081][590]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:081][590]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:090][591]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:090][591]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:098][592]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:098][592]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:106][593]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:106][593]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:115][594]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:115][594]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:123][595]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:123][595]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:131][596]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:131][596]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:141][597]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:141][597]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:148][598]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:148][598]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:156][599]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:156][599]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:165][600]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:165][600]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:173][601]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:173][601]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:181][602]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:181][602]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:189][603]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:190][603]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:198][604]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:198][604]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:207][605]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:207][605]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:214][606]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:215][606]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:223][607]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:223][607]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:231][608]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:231][608]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:239][609]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:240][609]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:248][610]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:248][610]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:256][611]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:256][611]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:264][612]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:265][612]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:273][613]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:273][613]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:281][614]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:281][614]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:289][615]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:289][615]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:298][616]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:298][616]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:306][617]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:306][617]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:314][618]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:315][618]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:323][619]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:323][619]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:331][620]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:331][620]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:339][621]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:340][621]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:348][622]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:348][622]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:356][623]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:356][623]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:364][624]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:365][624]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:373][625]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:373][625]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:381][626]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:381][626]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:389][627]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:389][627]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:397][628]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:398][628]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:406][629]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:406][629]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:414][630]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:414][630]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:422][631]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:423][631]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:431][632]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:431][632]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:440][633]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:440][633]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:448][634]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:449][634]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:457][635]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:457][635]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:465][636]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:465][636]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:473][637]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:473][637]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:482][638]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:482][638]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:490][639]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:490][639]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:498][640]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:498][640]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:507][641]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:507][641]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:515][642]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:515][642]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:523][643]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:523][643]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:532][644]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:532][644]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:540][645]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:540][645]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:548][646]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:548][646]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:556][647]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:557][647]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:565][648]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:565][648]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:573][649]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:573][649]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:581][650]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:582][650]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:590][651]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:590][651]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:598][652]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:598][652]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:607][653]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:607][653]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:615][654]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:615][654]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:623][655]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:623][655]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:632][656]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:632][656]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:640][657]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:640][657]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:648][658]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:648][658]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:656][659]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:657][659]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:665][660]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:665][660]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:673][661]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:673][661]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:681][662]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:682][662]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:690][663]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:690][663]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:698][664]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:698][664]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:706][665]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:706][665]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:715][666]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:715][666]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:723][667]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:723][667]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:731][668]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:731][668]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:740][669]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:740][669]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:748][670]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:748][670]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:756][671]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:757][671]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:765][672]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:765][672]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:773][673]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:773][673]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:781][674]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:782][674]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:790][675]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:790][675]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:798][676]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:798][676]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:806][677]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:806][677]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:815][678]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:815][678]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:823][679]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:823][679]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:831][680]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:831][680]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:840][681]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:840][681]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:848][682]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:848][682]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:856][683]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:856][683]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:865][684]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:865][684]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:873][685]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:873][685]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:881][686]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:881][686]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:889][687]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:889][687]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:898][688]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:898][688]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:906][689]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:906][689]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:914][690]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:915][690]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:923][691]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:923][691]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:931][692]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:931][692]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:939][693]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:939][693]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:948][694]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:948][694]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:956][695]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:956][695]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:964][696]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:965][696]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:973][697]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:973][697]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:981][698]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:981][698]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:989][699]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:990][699]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.29:998][700]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.29:998][700]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:006][701]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:006][701]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:014][702]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:014][702]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:023][703]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:023][703]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:031][704]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:031][704]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:039][705]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:039][705]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:048][706]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:048][706]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:056][707]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:056][707]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:064][708]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:065][708]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:073][709]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:073][709]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:081][710]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:081][710]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:089][711]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:089][711]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:097][712]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:098][712]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:106][713]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:106][713]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:114][714]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:115][714]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:122][715]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:123][715]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:131][716]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:131][716]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:139][717]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:139][717]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:148][718]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:148][718]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:156][719]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:156][719]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:164][720]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:164][720]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:172][721]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:173][721]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:181][722]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:181][722]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:189][723]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:189][723]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:197][724]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:198][724]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:206][725]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:206][725]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:214][726]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:214][726]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:222][727]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:223][727]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:231][728]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:231][728]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:239][729]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:239][729]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:247][730]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:247][730]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:256][731]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:256][731]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:264][732]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:264][732]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:272][733]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:272][733]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:281][734]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:281][734]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:289][735]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:289][735]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:297][736]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:297][736]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:306][737]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:306][737]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:314][738]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:314][738]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:322][739]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:322][739]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:331][740]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:331][740]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:339][741]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:339][741]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:347][742]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:347][742]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:356][743]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:356][743]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:364][744]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:364][744]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:372][745]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:373][745]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:381][746]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:381][746]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:389][747]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:389][747]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:397][748]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:397][748]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:406][749]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:406][749]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:414][750]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:414][750]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:422][751]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:422][751]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:430][752]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:431][752]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:439][753]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:439][753]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:447][754]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:447][754]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:455][755]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:456][755]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:464][756]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:464][756]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:472][757]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:472][757]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:481][758]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:481][758]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:490][759]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:490][759]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:498][760]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:498][760]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:506][761]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:506][761]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:515][762]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:515][762]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:523][763]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:523][763]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:531][764]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:532][764]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:540][765]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:540][765]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:548][766]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:548][766]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:556][767]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:556][767]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:565][768]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:565][768]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:573][769]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:573][769]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:581][770]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:581][770]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:590][771]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:590][771]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:598][772]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:598][772]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:606][773]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:606][773]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:615][774]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:615][774]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:623][775]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:623][775]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:631][776]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:631][776]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:640][777]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:640][777]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:648][778]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:648][778]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:656][779]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:656][779]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:665][780]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:665][780]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:673][781]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:673][781]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:681][782]LogTemp:Warning: 35.0 on pressure plate
+[2016.08.23-01.40.30:681][782]LogTemp:Warning: 50.0 on pressure plate
+[2016.08.23-01.40.30:690][783]LogHMD: Destroying ovr session
+[2016.08.23-01.40.30:694][783]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(b0466ll)
+[2016.08.23-01.40.31:540][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.23-01.40.31:778][876]LogSavePackage: Save=211.91ms
+[2016.08.23-01.40.31:778][876]LogSavePackage: Moving '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Saved/Level105D7D43743C9B486DB83B7863FFF1F96.tmp' to '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Level1.umap'
+[2016.08.23-01.40.31:779][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Level1.umap
+[2016.08.23-01.40.40:021][621]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.23-01.40.40:179][622]Cmd: QUIT_EDITOR
+[2016.08.23-01.40.41:151][622]LogExit: Preparing to exit.
+[2016.08.23-01.40.42:307][622]LogExit: Editor shut down
+[2016.08.23-01.40.42:307][622]LogExit: Transaction tracking system shut down
+[2016.08.23-01.40.42:384][622]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.23-01.40.42:384][622]LogExit: Object subsystem successfully closed.
+[2016.08.23-01.40.42:404][622]LogD3D11RHI: Shutdown
+[2016.08.23-01.40.42:404][622]LogD3D11RHI: CleanupD3DDevice
+[2016.08.23-01.40.42:440][622]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.23-01.40.42:447][622]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (217)
+[2016.08.23-01.40.42:447][622]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (216)
+[2016.08.23-01.40.42:447][622]LogModuleManager: Shutting down and abandoning module CrashTracker (215)
+[2016.08.23-01.40.42:447][622]LogModuleManager: Shutting down and abandoning module WidgetCarousel (214)
+[2016.08.23-01.40.42:447][622]LogModuleManager: Shutting down and abandoning module AddContentDialog (213)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module GameplayTags (212)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module EditorWidgets (211)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module CollectionManager (210)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module SceneOutliner (209)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module StatsViewer (208)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module FoliageEdit (207)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module LandscapeEditor (206)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (205)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module ActorPickerMode (204)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module GeometryMode (203)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module TextureAlignMode (202)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module BspMode (201)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module HardwareSurvey (200)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (199)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module SequenceRecorder (198)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module AutomationWorker (197)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (196)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module PlacementMode (195)
+[2016.08.23-01.40.42:448][622]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (194)
+[2016.08.23-01.40.42:449][622]LogModuleManager: Shutting down and abandoning module CharacterAI (193)
+[2016.08.23-01.40.42:449][622]LogModuleManager: Shutting down and abandoning module SmartSnapping (192)
+[2016.08.23-01.40.42:449][622]LogModuleManager: Shutting down and abandoning module SessionServices (191)
+[2016.08.23-01.40.42:449][622]LogModuleManager: Shutting down and abandoning module ViewportSnapping (190)
+[2016.08.23-01.40.42:449][622]LogModuleManager: Shutting down and abandoning module LogVisualizer (189)
+[2016.08.23-01.40.42:449][622]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (188)
+[2016.08.23-01.40.42:449][622]LogModuleManager: Shutting down and abandoning module IntroTutorials (187)
+[2016.08.23-01.40.42:449][622]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (186)
+[2016.08.23-01.40.42:449][622]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (185)
+[2016.08.23-01.40.42:449][622]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (184)
+[2016.08.23-01.40.42:449][622]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (183)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (182)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (181)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (180)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module MergeActors (179)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module SizeMap (178)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module TreeMap (177)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module ReferenceViewer (176)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module LocalizationService (175)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (174)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module HardwareTargeting (173)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (172)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module UndoHistory (171)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module UserFeedback (170)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module XmlParser (169)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module Blutility (168)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (167)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (166)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module InputBindingEditor (165)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (164)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module SettingsEditor (163)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module ProjectLauncher (162)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module SessionFrontend (161)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module ProfilerClient (160)
+[2016.08.23-01.40.42:858][622]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (159)
+[2016.08.23-01.40.42:859][622]LogModuleManager: Shutting down and abandoning module DeviceManager (158)
+[2016.08.23-01.40.42:914][622]LogModuleManager: Shutting down and abandoning module AutomationController (157)
+[2016.08.23-01.40.42:914][622]LogModuleManager: Shutting down and abandoning module AutomationWindow (156)
+[2016.08.23-01.40.42:914][622]LogModuleManager: Shutting down and abandoning module Layers (155)
+[2016.08.23-01.40.42:914][622]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (154)
+[2016.08.23-01.40.42:914][622]LogModuleManager: Shutting down and abandoning module DetailCustomizations (153)
+[2016.08.23-01.40.42:914][622]LogModuleManager: Shutting down and abandoning module PackagesDialog (152)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module Persona (151)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module Kismet (150)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module GraphEditor (149)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module ClassViewer (148)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module Toolbox (147)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module ModuleUI (146)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module MovieSceneTools (145)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module OutputLog (144)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module GammaUI (143)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module Documentation (142)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (141)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module AnalyticsET (140)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module Analytics (139)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module PortalServices (138)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module PortalRpc (137)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module MessagingRpc (136)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module GameplayDebugger (135)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module AITestSuite (134)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module AIModule (133)
+[2016.08.23-01.40.42:915][622]LogModuleManager: Shutting down and abandoning module ProfilerService (132)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module TaskGraph (131)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module SubstanceEditor (130)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module SlateRemote (129)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module SteamVRController (128)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module SteamVR (127)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (126)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module OculusLibrary (125)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module OculusInput (124)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (123)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module CableComponent (122)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (121)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (120)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module HTML5Networking (119)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module SuperSearch (118)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (117)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (116)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module PluginBrowser (115)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module EpicSurvey (114)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2016.08.23-01.40.43:050][622]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2016.08.23-01.40.43:051][622]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2016.08.23-01.40.43:051][622]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2016.08.23-01.40.43:051][622]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.08.23-01.40.43:052][622]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2016.08.23-01.40.43:052][622]LogModuleManager: Shutting down and abandoning module BuildingEscape (97)
+[2016.08.23-01.40.43:052][622]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module SubstanceCore (95)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module Media (91)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module MediaAssets (89)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (88)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (87)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (86)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module VREditor (85)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (84)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module PropertyEditor (83)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (82)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module FunctionalTesting (81)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (80)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module Sequencer (79)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (78)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module MessageLog (77)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module AssetTools (76)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module UMGEditor (75)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module UMG (74)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module SlateReflector (73)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module Slate (72)
+[2016.08.23-01.40.43:152][622]LogModuleManager: Shutting down and abandoning module EditorStyle (71)
+[2016.08.23-01.40.43:154][622]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (70)
+[2016.08.23-01.40.43:154][622]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (69)
+[2016.08.23-01.40.43:154][622]LogModuleManager: Shutting down and abandoning module XAudio2 (68)
+[2016.08.23-01.40.43:154][622]LogModuleManager: Shutting down and abandoning module Networking (66)
+[2016.08.23-01.40.43:154][622]LogModuleManager: Shutting down and abandoning module Core (65)
+[2016.08.23-01.40.43:154][622]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (64)
+[2016.08.23-01.40.43:154][622]LogModuleManager: Shutting down and abandoning module AssetRegistry (63)
+[2016.08.23-01.40.43:297][622]LogModuleManager: Shutting down and abandoning module KismetCompiler (62)
+[2016.08.23-01.40.43:297][622]LogModuleManager: Shutting down and abandoning module PhysXFormats (61)
+[2016.08.23-01.40.43:297][622]LogModuleManager: Shutting down and abandoning module MeshUtilities (60)
+[2016.08.23-01.40.43:297][622]LogModuleManager: Shutting down and abandoning module DerivedDataCache (59)
+[2016.08.23-01.40.43:537][622]LogDerivedDataCache: Shutdown
+[2016.08.23-01.40.43:537][622]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (58)
+[2016.08.23-01.40.43:537][622]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (57)
+[2016.08.23-01.40.43:537][622]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (56)
+[2016.08.23-01.40.43:537][622]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (55)
+[2016.08.23-01.40.43:537][622]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (54)
+[2016.08.23-01.40.43:537][622]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (53)
+[2016.08.23-01.40.43:537][622]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (52)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (51)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module ImageWrapper (50)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (49)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (48)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (47)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (46)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (45)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (44)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (43)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (42)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (41)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module Messaging (40)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (39)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (38)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (37)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (36)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (35)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (34)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (33)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (32)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (31)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (30)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (20)
+[2016.08.23-01.40.43:538][622]LogModuleManager: Shutting down and abandoning module HTTP (19)
+[2016.08.23-01.40.48:050][622]LogModuleManager: Shutting down and abandoning module XMPP (18)
+[2016.08.23-01.40.48:050][622]LogModuleManager: Shutting down and abandoning module OculusRift (17)
+[2016.08.23-01.40.48:051][622]LogHMD: Oculus shutdown.
+[2016.08.23-01.40.48:051][622]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (16)
+[2016.08.23-01.40.48:051][622]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2016.08.23-01.40.48:051][622]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.23-01.40.48:051][622]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.23-01.40.48:051][622]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.23-01.40.48:051][622]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.23-01.40.48:052][622]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.23-01.40.48:052][622]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.23-01.40.48:052][622]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.23-01.40.48:052][622]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.23-01.40.48:052][622]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.23-01.40.48:052][622]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.23-01.40.48:052][622]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.23-01.40.48:052][622]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.23-01.40.48:052][622]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.23-01.40.48:052][622]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.23-01.40.48:053][622]LogExit: Exiting.
+[2016.08.23-01.40.48:054][622]Log file closed, 08/22/16 21:40:48

@@ -1,0 +1,823 @@
+﻿Log file open, 08/22/16 17:44:38
+LogInit:Display: Running engine for game: BuildingEscape
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2122558664) SRandInit(2122558665).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.066502
+LogInit:Warning: Incompatible or missing module: UE4Editor-BuildingEscape.dll
+Running C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape Development Win64 -project="C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/BuildingEscape.uproject" -editorrecompile -progress -noubtmakefiles -NoHotReloadFromIDE
+@progress push 5%
+Parsing headers for BuildingEscapeEditor
+  Running UnrealHeaderTool "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for BuildingEscapeEditor in 2.1929321 seconds
+@progress pop
+Performing 2 actions (4 in parallel)
+BuildingEscape.generated.cpp
+[2/2] Link UE4Editor-BuildingEscape.dll
+   Creating library C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib and object C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.exp
+Total build time: 10.12 seconds
+OCULUS: Info: [CAPI] LibOVR module is located at D:\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.7.0(build = 262766) feature version = 0. Client runs version (prod = 1).1.7.0(build = 262766) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 65.7mm
+OCULUS: Debug: [SharedMemory] Creating factory
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.22-21.44.50:672][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.22-21.44.50:672][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.22-21.44.50:680][  0]LogInit: Computer: RYANJSMITH_PC
+[2016.08.22-21.44.50:680][  0]LogInit: User: RyanJSmith
+[2016.08.22-21.44.50:680][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.22-21.44.50:680][  0]LogInit: High frequency timer resolution =3.906248 MHz
+[2016.08.22-21.44.50:681][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.08.22-21.44.50:681][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.22-21.44.50:681][  0]LogMemory: Process Physical Memory: 195.24 MB used, 195.24 MB peak
+[2016.08.22-21.44.50:681][  0]LogMemory: Process Virtual Memory: 197.97 MB used, 197.97 MB peak
+[2016.08.22-21.44.50:681][  0]LogMemory: Physical Memory: 3774.83 MB used, 16326.53 MB total
+[2016.08.22-21.44.50:681][  0]LogMemory: Virtual Memory: 599.80 MB used, 134217728.00 MB total
+[2016.08.22-21.44.50:706][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.22-21.44.51:379][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(f0934ll)
+[2016.08.22-21.44.51:379][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.22-21.44.51:408][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.08.22-21.44.51:408][  0]LogD3D11RHI:       3975/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.08.22-21.44.51:409][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.22-21.44.51:409][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.22-21.44.51:409][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.22-21.44.51:413][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.22-21.44.51:413][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.22-21.44.51:413][  0]LogWindows: EnumDisplayDevices:
+[2016.08.22-21.44.51:413][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2016.08.22-21.44.51:413][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2016.08.22-21.44.51:413][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.08.22-21.44.51:413][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.08.22-21.44.51:413][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.08.22-21.44.51:413][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.08.22-21.44.51:413][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2016.08.22-21.44.51:413][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2016.08.22-21.44.51:413][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.22-21.44.51:449][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.22-21.44.51:469][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.08.22-21.44.51:469][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/6324/).
+[2016.08.22-21.44.51:469][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/RYANJS~1/AppData/Local/Temp/UnrealShaderWorkingDir/F921F982441FEDEC2DAEC9B1ABF791A5/'.
+[2016.08.22-21.44.51:469][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.22-21.44.52:302][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.22-21.44.52:311][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.22-21.44.52:320][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.22-21.44.52:330][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.22-21.44.52:338][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.22-21.44.52:344][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.22-21.44.52:351][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.22-21.44.52:357][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.22-21.44.52:363][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.22-21.44.52:368][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.22-21.44.52:374][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.22-21.44.52:387][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.22-21.44.52:387][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.22-21.44.52:388][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.22-21.44.52:408][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.22-21.44.52:416][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.22-21.44.52:424][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.22-21.44.52:431][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.22-21.44.52:440][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.22-21.44.52:440][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.22-21.44.52:509][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(f0934ll)
+[2016.08.22-21.44.52:509][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.22-21.44.52:549][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/RyanJSmith/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.22-21.44.52:550][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RyanJSmith/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.22-21.44.52:550][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.22-21.44.52:550][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.22-21.44.52:550][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.22-21.44.52:550][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.22-21.44.52:564][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.22-21.44.52:576][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RyanJSmith/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.22-21.44.52:783][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.22-21.44.52:784][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.22-21.44.52:912][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.22-21.44.52:912][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.22-21.44.52:912][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.22-21.44.53:132][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2016.08.22-21.44.53:156][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021350 seconds
+[2016.08.22-21.44.53:163][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.08.22-21.44.53:163][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.08.22-21.44.53:163][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.22-21.44.53:174][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.22-21.44.53:327][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.22-21.44.53:327][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.22-21.44.53:841][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.08.22-21.44.53:847][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.22-21.44.54:041][  0]SourceControl: Info Source control is disabled
+[2016.08.22-21.44.54:057][  0]SourceControl: Info Source control is disabled
+[2016.08.22-21.44.54:062][  0]SourceControl: Info Source control is disabled
+[2016.08.22-21.44.54:068][  0]SourceControl: Info Source control is disabled
+[2016.08.22-21.44.54:223][  0]LogEngine: Initializing Engine...
+[2016.08.22-21.44.59:241][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(f0934ll)
+[2016.08.22-21.44.59:241][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(f0934ll)
+[2016.08.22-21.44.59:241][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(f0934ll)
+[2016.08.22-21.44.59:241][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(f0934ll)
+[2016.08.22-21.44.59:241][  0]LogHMD: SteamVR failed to initialize.  Err: 308
+[2016.08.22-21.45.04:263][  0]LogHMD: SteamVR failed to initialize.  Err: 308
+[2016.08.22-21.45.04:264][  0]LogHMD: Oculus plugin initialized. Version: 4.12.5-3039270+++UE4+Release-4.12, LibOVR: 1.7.0, SDK: 1.3.2, built Jul  6 2016, 09:11:15
+[2016.08.22-21.45.04:264][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2016.08.22-21.45.04:264][  0]OCULUS: Info: IAD changed to 65.7mm
+[2016.08.22-21.45.04:264][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(f0934ll)
+[2016.08.22-21.45.04:361][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.22-21.45.04:369][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.22-21.45.04:381][  0]LogInit: FAudioDevice initialized.
+[2016.08.22-21.45.04:401][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/RyanJSmith/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.22-21.45.04:404][  0]LogInit: Texture streaming: Enabled
+[2016.08.22-21.45.04:420][  0]LogInit: Transaction tracking system initialized
+[2016.08.22-21.45.04:438][  0]BlueprintLog: New page: Editor Load
+[2016.08.22-21.45.04:492][  0]LocalizationService: Info Localization service is disabled
+[2016.08.22-21.45.04:540][  0]LogConsoleResponse:Display: 
+[2016.08.22-21.45.04:614][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.22-21.45.04:614][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.22-21.45.04:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/' took 0.01s
+[2016.08.22-21.45.04:680][  0]SourceControl: Info Source control is disabled
+[2016.08.22-21.45.04:681][  0]Cmd: MAP LOAD FILE="../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.22-21.45.04:681][  0]LightingResults: New page: Lighting Build
+[2016.08.22-21.45.04:683][  0]MapCheck: New page: Map Check
+[2016.08.22-21.45.04:683][  0]LightingResults: New page: Lighting Build
+[2016.08.22-21.45.04:934][  0]LogAIModule: Creating AISystem for world Level1
+[2016.08.22-21.45.04:955][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.22-21.45.04:956][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.22-21.45.04:978][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 22.601ms to complete.
+[2016.08.22-21.45.04:978][  0]LogFileHelpers: Loading map 'Level1' took 0.298
+[2016.08.22-21.45.05:063][  0]LogCollectionManager: Loaded 1 collections in 0.001968 seconds
+[2016.08.22-21.45.05:106][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
+[2016.08.22-21.45.05:106][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Developers/RyanJSmith/Collections/' took 0.01s
+[2016.08.22-21.45.05:106][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
+[2016.08.22-21.45.05:106][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2016.08.22-21.45.05:106][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.08.22-21.45.05:112][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2066 classes and 379 folders.
+[2016.08.22-21.45.05:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.22-21.45.05:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.22-21.45.05:116][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 12 classes and 0 folders.
+[2016.08.22-21.45.05:121][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.08.22-21.45.05:142][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.08.22-21.45.05:236][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.22-21.45.05:249][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.22-21.45.05:274][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.08.22-21.45.05:274][  0]LogLoad: Full Startup: 26.80 seconds (BP compile: 0.03 seconds)
+[2016.08.22-21.45.05:274][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.22-21.45.05:274][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.22-21.45.05:283][  0]LogOcInput: OculusInput pre-init called
+[2016.08.22-21.45.05:290][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.7.0
+[2016.08.22-21.45.05:307][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.08.22-21.45.05:432][  0]LogRenderer: Reallocating scene render targets to support 1180x740 (Frame:2).
+[2016.08.22-21.45.05:492][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.08.22-21.45.05:502][  1]LogAssetRegistry: Asset discovery search completed in 12.3914 seconds
+[2016.08.22-21.45.05:502][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000004 seconds (found 0 objects)
+[2016.08.22-21.45.05:502][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000058 seconds (updated 0 objects)
+[2016.08.22-21.45.09:533][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.22-21.45.09:534][475]OCULUS: Debug: [HMDState] Using default profile default
+[2016.08.22-21.45.09:534][475]OCULUS: Info: IAD changed to 65.7mm
+[2016.08.22-21.45.09:534][475]LogHMD: New ovr session is created
+[2016.08.22-21.45.09:534][475]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.08.22-21.45.09:535][475]LogApp: UseVRFocus has changed to 1
+[2016.08.22-21.45.09:535][475]LogApp: HasVRFocus has changed to 1
+[2016.08.22-21.45.09:535][475]LogApp: UseVRFocus has changed to 0
+[2016.08.22-21.45.09:535][475]LogApp: HasVRFocus has changed to 0
+[2016.08.22-21.45.09:535][475]PIE: New page: PIE session: Level1 (Aug 22, 2016, 12:45:09 PM)
+[2016.08.22-21.45.09:535][475]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.08.22-21.45.09:552][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016755s)
+[2016.08.22-21.45.09:553][475]LogAIModule: Creating AISystem for world Level1
+[2016.08.22-21.45.09:553][475]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2016.08.22-21.45.09:553][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.017760s)
+[2016.08.22-21.45.09:564][475]LogApp: UseVRFocus has changed to 1
+[2016.08.22-21.45.09:564][475]LogApp: HasVRFocus has changed to 1
+[2016.08.22-21.45.09:564][475]LogApp: UseVRFocus has changed to 0
+[2016.08.22-21.45.09:564][475]LogApp: HasVRFocus has changed to 0
+[2016.08.22-21.45.09:569][475]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.22-21.45.09:583][475]LogInit: FAudioDevice initialized.
+[2016.08.22-21.45.09:645][475]LogWorld: Game class is 'BuildingEscapeGameMode'
+[2016.08.22-21.45.09:653][475]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.08.22-17.45.09
+[2016.08.22-21.45.09:654][475]LogWorld: Bringing up level for play took: 0.007591
+[2016.08.22-21.45.09:657][475]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2016.08.22-21.45.09:658][475]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.827
+[2016.08.22-21.45.12:203][778]LogHMD: Destroying ovr session
+[2016.08.22-21.45.12:206][778]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(802ccll)
+[2016.08.22-21.45.14:549][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.22-21.45.14:767][ 49]LogSavePackage: Save=204.59ms
+[2016.08.22-21.45.14:767][ 49]LogSavePackage: Moving '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Saved/Level1627E02C04C3B461F007A1D976552BD2E.tmp' to '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Level1.umap'
+[2016.08.22-21.45.14:768][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Level1.umap
+[2016.08.22-23.07.11:962][916]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(802ccll)
+[2016.08.22-23.07.27:295][962]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(802ccll)
+[2016.08.22-23.07.47:181][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.22-23.07.47:181][375]OCULUS: Debug: [HMDState] Using default profile default
+[2016.08.22-23.07.47:182][375]OCULUS: Info: IAD changed to 65.7mm
+[2016.08.22-23.07.47:182][375]LogHMD: New ovr session is created
+[2016.08.22-23.07.47:182][375]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.08.22-23.07.47:182][375]LogApp: UseVRFocus has changed to 1
+[2016.08.22-23.07.47:182][375]LogApp: HasVRFocus has changed to 1
+[2016.08.22-23.07.47:182][375]LogApp: UseVRFocus has changed to 0
+[2016.08.22-23.07.47:182][375]LogApp: HasVRFocus has changed to 0
+[2016.08.22-23.07.47:182][375]PIE: New page: PIE session: Level1 (Aug 22, 2016, 2:07:47 PM)
+[2016.08.22-23.07.47:182][375]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.08.22-23.07.47:195][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013070s)
+[2016.08.22-23.07.47:196][375]LogAIModule: Creating AISystem for world Level1
+[2016.08.22-23.07.47:196][375]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2016.08.22-23.07.47:197][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.014286s)
+[2016.08.22-23.07.47:203][375]LogApp: UseVRFocus has changed to 1
+[2016.08.22-23.07.47:203][375]LogApp: HasVRFocus has changed to 1
+[2016.08.22-23.07.47:203][375]LogApp: UseVRFocus has changed to 0
+[2016.08.22-23.07.47:203][375]LogApp: HasVRFocus has changed to 0
+[2016.08.22-23.07.47:210][375]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.22-23.07.47:222][375]LogInit: FAudioDevice initialized.
+[2016.08.22-23.07.47:272][375]LogWorld: Game class is 'BuildingEscapeGameMode'
+[2016.08.22-23.07.47:280][375]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.08.22-19.07.47
+[2016.08.22-23.07.47:281][375]LogWorld: Bringing up level for play took: 0.007601
+[2016.08.22-23.07.47:282][375]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.452
+[2016.08.22-23.07.47:823][439]LogHMD: Destroying ovr session
+[2016.08.22-23.07.47:826][439]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(802ccll)
+[2016.08.23-00.06.08:404][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2016.08.23-00.06.40:228][933]Cmd: TRANSACTION UNDO
+[2016.08.23-00.06.40:229][933]LogEditorTransaction: Undo Edit Object Type
+[2016.08.23-00.06.40:590][964]Cmd: TRANSACTION UNDO
+[2016.08.23-00.06.40:590][964]LogEditorTransaction: Undo Edit Collision Enabled
+[2016.08.23-00.06.40:803][979]Cmd: TRANSACTION UNDO
+[2016.08.23-00.06.40:803][979]LogEditorTransaction: Undo Edit Collision Profile Name
+[2016.08.23-00.06.42:730][205]Cmd: TRANSACTION UNDO
+[2016.08.23-00.06.42:730][205]LogEditorTransaction: Undo Clicking on Actors
+[2016.08.23-00.06.44:007][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2016.08.23-00.06.46:034][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2016.08.23-00.06.47:142][707]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2016.08.23-00.07.17:524][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 0.009
+[2016.08.23-00.17.18:177][824]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 0.008
+[2016.08.23-00.27.18:845][626]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 0.007
+[2016.08.23-00.37.19:681][563]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 0.008
+[2016.08.23-00.47.20:345][365]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 0.009
+[2016.08.23-00.52.49:060][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.23-00.52.49:061][260]OCULUS: Debug: [HMDState] Using default profile default
+[2016.08.23-00.52.49:061][260]OCULUS: Info: IAD changed to 65.7mm
+[2016.08.23-00.52.49:061][260]LogHMD: New ovr session is created
+[2016.08.23-00.52.49:061][260]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.08.23-00.52.49:061][260]LogApp: UseVRFocus has changed to 1
+[2016.08.23-00.52.49:061][260]LogApp: HasVRFocus has changed to 1
+[2016.08.23-00.52.49:061][260]LogApp: UseVRFocus has changed to 0
+[2016.08.23-00.52.49:061][260]LogApp: HasVRFocus has changed to 0
+[2016.08.23-00.52.49:062][260]PIE: New page: PIE session: Level1 (Aug 22, 2016, 3:52:49 PM)
+[2016.08.23-00.52.49:062][260]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.08.23-00.52.49:075][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013524s)
+[2016.08.23-00.52.49:076][260]LogAIModule: Creating AISystem for world Level1
+[2016.08.23-00.52.49:076][260]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2016.08.23-00.52.49:077][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.014908s)
+[2016.08.23-00.52.49:085][260]LogApp: UseVRFocus has changed to 1
+[2016.08.23-00.52.49:085][260]LogApp: HasVRFocus has changed to 1
+[2016.08.23-00.52.49:085][260]LogApp: UseVRFocus has changed to 0
+[2016.08.23-00.52.49:085][260]LogApp: HasVRFocus has changed to 0
+[2016.08.23-00.52.49:091][260]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.23-00.52.49:106][260]LogInit: FAudioDevice initialized.
+[2016.08.23-00.52.49:190][260]LogWorld: Game class is 'BuildingEscapeGameMode'
+[2016.08.23-00.52.49:198][260]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.08.22-20.52.49
+[2016.08.23-00.52.49:199][260]LogWorld: Bringing up level for play took: 0.007947
+[2016.08.23-00.52.49:200][260]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.37
+[2016.08.23-00.52.50:576][424]LogHMD: Destroying ovr session
+[2016.08.23-00.52.50:580][424]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(802ccll)
+[2016.08.23-00.52.53:696][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.23-00.52.53:697][785]OCULUS: Debug: [HMDState] Using default profile default
+[2016.08.23-00.52.53:697][785]OCULUS: Info: IAD changed to 65.7mm
+[2016.08.23-00.52.53:697][785]LogHMD: New ovr session is created
+[2016.08.23-00.52.53:697][785]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.08.23-00.52.53:697][785]LogApp: UseVRFocus has changed to 1
+[2016.08.23-00.52.53:697][785]LogApp: HasVRFocus has changed to 1
+[2016.08.23-00.52.53:697][785]LogApp: UseVRFocus has changed to 0
+[2016.08.23-00.52.53:697][785]LogApp: HasVRFocus has changed to 0
+[2016.08.23-00.52.53:697][785]PIE: New page: PIE session: Level1 (Aug 22, 2016, 3:52:53 PM)
+[2016.08.23-00.52.53:697][785]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.08.23-00.52.53:709][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011593s)
+[2016.08.23-00.52.53:710][785]LogAIModule: Creating AISystem for world Level1
+[2016.08.23-00.52.53:710][785]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2016.08.23-00.52.53:710][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.012754s)
+[2016.08.23-00.52.53:717][785]LogApp: UseVRFocus has changed to 1
+[2016.08.23-00.52.53:717][785]LogApp: HasVRFocus has changed to 1
+[2016.08.23-00.52.53:717][785]LogApp: UseVRFocus has changed to 0
+[2016.08.23-00.52.53:717][785]LogApp: HasVRFocus has changed to 0
+[2016.08.23-00.52.53:722][785]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.23-00.52.53:734][785]LogInit: FAudioDevice initialized.
+[2016.08.23-00.52.53:783][785]LogWorld: Game class is 'BuildingEscapeGameMode'
+[2016.08.23-00.52.53:791][785]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.08.22-20.52.53
+[2016.08.23-00.52.53:792][785]LogWorld: Bringing up level for play took: 0.007411
+[2016.08.23-00.52.53:793][785]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.963
+[2016.08.23-00.53.01:659][624]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
+[2016.08.23-00.53.09:504][469]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.08.23-00.53.09:505][469]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.08.23-00.53.19:009][488]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 111 classes and 0 folders.
+[2016.08.23-00.53.19:567][488]LogRenderer: Reallocating scene render targets to support 1344x740 (Frame:15912).
+[2016.08.23-00.53.22:176][678]LogHMD: Destroying ovr session
+[2016.08.23-00.53.22:181][678]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(a0302ll)
+[2016.08.23-00.53.25:470][ 14]LogSavePackage: Save=12.61ms
+[2016.08.23-00.53.25:470][ 14]LogSavePackage: Moving '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Saved/DefaultPawn_Blueprint4E954B364CEE9875777DFE87F7F452AB.tmp' to '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Blueprints/DefaultPawn_Blueprint.uasset'
+[2016.08.23-00.53.25:471][ 14]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Blueprints/DefaultPawn_Blueprint.uasset
+[2016.08.23-00.53.25:873][ 62]BlueprintLog: New page: Compile DefaultPawn_Blueprint
+[2016.08.23-00.53.26:023][ 62]BlueprintEditorCompileResults: Info [1327.55] Compile of DefaultPawn_Blueprint successful! [in 149 ms] (/Game/Blueprints/DefaultPawn_Blueprint.DefaultPawn_Blueprint)
+[2016.08.23-00.53.35:733][196]BlueprintLog: New page: Compile DefaultPawn_Blueprint
+[2016.08.23-00.53.35:921][196]BlueprintEditorCompileResults: Info [1337.45] Compile of DefaultPawn_Blueprint successful! [in 186 ms] (/Game/Blueprints/DefaultPawn_Blueprint.DefaultPawn_Blueprint)
+[2016.08.23-00.53.36:502][251]LogSavePackage: Save=11.53ms
+[2016.08.23-00.53.36:502][251]LogSavePackage: Moving '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Saved/DefaultPawn_BlueprintEFB360304646232CC5BD67827AA64984.tmp' to '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Blueprints/DefaultPawn_Blueprint.uasset'
+[2016.08.23-00.53.36:504][251]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Blueprints/DefaultPawn_Blueprint.uasset
+[2016.08.23-00.54.32:415][813]BlueprintLog: New page: Compile MyBuildingEscapeGameMode
+[2016.08.23-00.54.32:549][813]BlueprintEditorCompileResults: Info [1394.07] Compile of MyBuildingEscapeGameMode successful! [in 134 ms] (/Game/Blueprints/MyBuildingEscapeGameMode.MyBuildingEscapeGameMode)
+[2016.08.23-00.54.32:975][858]LogSavePackage: Save=5.68ms
+[2016.08.23-00.54.32:976][858]LogSavePackage: Moving '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Saved/MyBuildingEscapeGameModeDC770F11409E336974BEAAB4D64F00C1.tmp' to '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Blueprints/MyBuildingEscapeGameMode.uasset'
+[2016.08.23-00.54.32:978][858]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Blueprints/MyBuildingEscapeGameMode.uasset
+[2016.08.23-00.54.34:778][ 64]LogSavePackage: Save=7.34ms
+[2016.08.23-00.54.34:778][ 64]LogSavePackage: Moving '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Saved/DefaultPawn_BlueprintB79AC8244E3E2C8AC34734B50C52D975.tmp' to '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Blueprints/DefaultPawn_Blueprint.uasset'
+[2016.08.23-00.54.34:779][ 64]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Blueprints/DefaultPawn_Blueprint.uasset
+[2016.08.23-00.54.35:560][158]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.08.23-00.54.38:750][532]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.23-00.54.48:816][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.23-00.54.49:101][727]LogSavePackage: Save=262.40ms
+[2016.08.23-00.54.49:101][727]LogSavePackage: Moving '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Saved/Level1ABC1BF1440F6F4776A988987F742067D.tmp' to '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Level1.umap'
+[2016.08.23-00.54.49:103][727]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Level1.umap
+[2016.08.23-01.04.16:169][488]Running C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape Win64 Development -editorrecompile "C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/BuildingEscape.uproject" -invalidatemakefilesonly
+[2016.08.23-01.04.16:471][488]Invalidating makefiles only in this run.
+[2016.08.23-01.04.16:818][488]Recompiling BuildingEscape...
+[2016.08.23-01.04.16:818][488]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 1506 Win64 Development -editorrecompile -canskiplink "C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -2015]
+[2016.08.23-01.04.24:079][488]CompilerResultsLog: New page: Compilation - Aug 22, 2016, 4:04:24 PM
+[2016.08.23-01.04.24:079][488]CompilerResultsLog: Info Creating makefile for hot reloading BuildingEscape (no existing makefile)
+[2016.08.23-01.04.24:079][488]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.08.23-01.04.24:079][488]CompilerResultsLog: Info Parsing headers for BuildingEscapeEditor
+[2016.08.23-01.04.24:079][488]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.08.23-01.04.24:079][488]CompilerResultsLog: Info Reflection code generated for BuildingEscapeEditor in 2.6267658 seconds
+[2016.08.23-01.04.24:079][488]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2016.08.23-01.04.24:079][488]CompilerResultsLog: Info Grabber.cpp
+[2016.08.23-01.04.24:079][488]CompilerResultsLog: Info BuildingEscape.generated.cpp
+[2016.08.23-01.04.24:080][488]CompilerResultsLog: Info [3/3] Link UE4Editor-BuildingEscape-1506.dll
+[2016.08.23-01.04.24:080][488]CompilerResultsLog: Info    Creating library C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-1506.lib and object C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-1506.exp
+[2016.08.23-01.04.24:080][488]CompilerResultsLog: Info Total build time: 7.14 seconds
+[2016.08.23-01.04.24:080][488]LogMainFrame: MainFrame: Module compiling took 7.270 seconds
+[2016.08.23-01.04.24:146][488]LogClass: Could not find existing class Grabber in package /Script/BuildingEscape for HotReload, assuming new class
+[2016.08.23-01.04.24:149][488]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2016.08.23-01.04.24:151][488]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.08.23-01.04.24:350][488]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2068 classes and 381 folders.
+[2016.08.23-01.04.24:360][488]Warning: HotReload took  7.7s.
+[2016.08.23-01.04.24:361][488]Warning: HotReload operation took  7.7s.
+[2016.08.23-01.04.24:459][488]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Source/BuildingEscape/Grabber.h'
+[2016.08.23-01.04.24:558][488]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Source/BuildingEscape/Grabber.cpp'
+[2016.08.23-01.04.24:596][488]LogHotReload: New module detected: UE4Editor-BuildingEscape-1506.dll
+[2016.08.23-01.04.24:632][489]LogHotReload: Starting Hot-Reload from IDE
+[2016.08.23-01.04.24:821][489]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0008 seconds. Added 4 classes and 2 folders.
+[2016.08.23-01.04.24:824][489]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.08.23-01.04.24:977][489]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2068 classes and 381 folders.
+[2016.08.23-01.04.24:985][489]Warning: HotReload took  0.4s.
+[2016.08.23-01.05.05:460][137]BlueprintLog: New page: Compile DefaultPawn_Blueprint
+[2016.08.23-01.05.06:006][137]BlueprintEditorCompileResults: Info [2027.53] Compile of DefaultPawn_Blueprint successful! [in 545 ms] (/Game/Blueprints/DefaultPawn_Blueprint.DefaultPawn_Blueprint)
+[2016.08.23-01.05.06:502][176]LogSavePackage: Save=16.53ms
+[2016.08.23-01.05.06:502][176]LogSavePackage: Moving '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Saved/DefaultPawn_BlueprintF7F53EB246C26DF04F7D99B3893A957A.tmp' to '../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Blueprints/DefaultPawn_Blueprint.uasset'
+[2016.08.23-01.05.06:504][176]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/Content/Blueprints/DefaultPawn_Blueprint.uasset
+[2016.08.23-01.10.41:586][795]Recompiling BuildingEscape...
+[2016.08.23-01.10.41:586][795]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 2736 Win64 Development -editorrecompile -canskiplink "C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -2015]
+[2016.08.23-01.10.41:587][795]Warning: Starting HotReload took  0.0s.
+[2016.08.23-01.10.47:885][531]CompilerResultsLog: New page: Compilation - Aug 22, 2016, 4:10:47 PM
+[2016.08.23-01.10.47:885][531]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.08.23-01.10.47:885][531]CompilerResultsLog: Info Parsing headers for BuildingEscapeEditor
+[2016.08.23-01.10.47:885][531]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.08.23-01.10.47:885][531]CompilerResultsLog: Info Reflection code generated for BuildingEscapeEditor in 2.5587451 seconds
+[2016.08.23-01.10.47:885][531]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2016.08.23-01.10.47:885][531]CompilerResultsLog: Info Grabber.cpp
+[2016.08.23-01.10.47:885][531]CompilerResultsLog: Info BuildingEscape.generated.cpp
+[2016.08.23-01.10.47:886][531]CompilerResultsLog: Info [3/3] Link UE4Editor-BuildingEscape-2736.dll
+[2016.08.23-01.10.47:886][531]CompilerResultsLog: Info    Creating library C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2736.lib and object C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2736.exp
+[2016.08.23-01.10.47:886][531]CompilerResultsLog: Info Total build time: 6.17 seconds
+[2016.08.23-01.10.47:886][531]LogMainFrame: MainFrame: Module compiling took 6.310 seconds
+[2016.08.23-01.10.47:914][531]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0008 seconds. Added 4 classes and 2 folders.
+[2016.08.23-01.10.47:916][531]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.08.23-01.10.48:103][531]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2068 classes and 381 folders.
+[2016.08.23-01.10.48:103][531]Warning: HotReload took  6.5s.
+[2016.08.23-01.25.05:686][288]LogHotReload: New module detected: UE4Editor-BuildingEscape-8190.dll
+[2016.08.23-01.25.07:360][294]LogHotReload: Starting Hot-Reload from IDE
+[2016.08.23-01.25.07:432][294]LogClass: Could not find existing class Grabber in package /Script/BuildingEscape for HotReload, assuming new class
+[2016.08.23-01.25.07:438][294]LogHotReload: Re-instancing Grabber after hot-reload.
+[2016.08.23-01.25.07:508][294]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0008 seconds. Added 4 classes and 2 folders.
+[2016.08.23-01.25.07:510][294]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.08.23-01.25.07:693][294]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2068 classes and 381 folders.
+[2016.08.23-01.25.07:701][294]Warning: HotReload took  0.3s.
+[2016.08.23-01.26.02:360][700]Recompiling BuildingEscape...
+[2016.08.23-01.26.02:360][700]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 7495 Win64 Development -editorrecompile -canskiplink "C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -2015]
+[2016.08.23-01.26.02:361][700]Warning: Starting HotReload took  0.0s.
+[2016.08.23-01.26.09:953][540]CompilerResultsLog: New page: Compilation - Aug 22, 2016, 4:26:09 PM
+[2016.08.23-01.26.09:953][540]CompilerResultsLog: Info Creating makefile for hot reloading BuildingEscape (working set of source files changed)
+[2016.08.23-01.26.09:953][540]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.08.23-01.26.09:953][540]CompilerResultsLog: Info Parsing headers for BuildingEscapeEditor
+[2016.08.23-01.26.09:953][540]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.08.23-01.26.09:953][540]CompilerResultsLog: Info Reflection code generated for BuildingEscapeEditor in 2.6839762 seconds
+[2016.08.23-01.26.09:953][540]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.08.23-01.26.09:953][540]CompilerResultsLog: Info Grabber.cpp
+[2016.08.23-01.26.09:953][540]CompilerResultsLog: Info [2/2] Link UE4Editor-BuildingEscape-7495.dll
+[2016.08.23-01.26.09:953][540]CompilerResultsLog: Info    Creating library C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7495.lib and object C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7495.exp
+[2016.08.23-01.26.09:953][540]CompilerResultsLog: Info Total build time: 7.46 seconds
+[2016.08.23-01.26.09:953][540]LogMainFrame: MainFrame: Module compiling took 7.601 seconds
+[2016.08.23-01.26.10:119][540]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0015 seconds. Added 4 classes and 2 folders.
+[2016.08.23-01.26.10:123][540]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.08.23-01.26.10:361][540]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2068 classes and 381 folders.
+[2016.08.23-01.26.10:361][540]Warning: HotReload took  8.0s.
+[2016.08.23-01.26.24:439][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.23-01.26.24:439][538]OCULUS: Debug: [HMDState] Using default profile default
+[2016.08.23-01.26.24:440][538]OCULUS: Info: IAD changed to 65.7mm
+[2016.08.23-01.26.24:440][538]LogHMD: New ovr session is created
+[2016.08.23-01.26.24:440][538]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.08.23-01.26.24:440][538]LogApp: UseVRFocus has changed to 1
+[2016.08.23-01.26.24:440][538]LogApp: HasVRFocus has changed to 1
+[2016.08.23-01.26.24:440][538]LogApp: UseVRFocus has changed to 0
+[2016.08.23-01.26.24:440][538]LogApp: HasVRFocus has changed to 0
+[2016.08.23-01.26.24:440][538]PIE: New page: PIE session: Level1 (Aug 22, 2016, 4:26:24 PM)
+[2016.08.23-01.26.24:440][538]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.08.23-01.26.24:454][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013616s)
+[2016.08.23-01.26.24:455][538]LogAIModule: Creating AISystem for world Level1
+[2016.08.23-01.26.24:455][538]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2016.08.23-01.26.24:455][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.015139s)
+[2016.08.23-01.26.24:520][538]LogApp: UseVRFocus has changed to 1
+[2016.08.23-01.26.24:520][538]LogApp: HasVRFocus has changed to 1
+[2016.08.23-01.26.24:520][538]LogApp: UseVRFocus has changed to 0
+[2016.08.23-01.26.24:520][538]LogApp: HasVRFocus has changed to 0
+[2016.08.23-01.26.24:525][538]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.23-01.26.24:539][538]LogInit: FAudioDevice initialized.
+[2016.08.23-01.26.24:589][538]LogWorld: Game class is 'BuildingEscapeGameMode'
+[2016.08.23-01.26.24:596][538]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.08.22-21.26.24
+[2016.08.23-01.26.24:597][538]LogWorld: Bringing up level for play took: 0.007022
+[2016.08.23-01.26.24:598][538]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.232
+[2016.08.23-01.26.37:211][ 37]LogHMD: Destroying ovr session
+[2016.08.23-01.26.37:219][ 37]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(a0302ll)
+[2016.08.23-01.28.06:999][ 93]Recompiling BuildingEscape...
+[2016.08.23-01.28.06:999][ 93]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 643 Win64 Development -editorrecompile -canskiplink "C:/Users/RyanJSmith/repo_main/repo_main/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -2015]
+[2016.08.23-01.28.07:000][ 93]Warning: Starting HotReload took  0.0s.
+[2016.08.23-01.28.14:362][957]CompilerResultsLog: New page: Compilation - Aug 22, 2016, 4:28:14 PM
+[2016.08.23-01.28.14:362][957]CompilerResultsLog: Info Creating makefile for hot reloading BuildingEscape (working set of source files changed)
+[2016.08.23-01.28.14:362][957]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.08.23-01.28.14:362][957]CompilerResultsLog: Info Parsing headers for BuildingEscapeEditor
+[2016.08.23-01.28.14:362][957]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.08.23-01.28.14:362][957]CompilerResultsLog: Info Reflection code generated for BuildingEscapeEditor in 2.4972887 seconds
+[2016.08.23-01.28.14:362][957]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.08.23-01.28.14:362][957]CompilerResultsLog: Info Grabber.cpp
+[2016.08.23-01.28.14:362][957]CompilerResultsLog: Info [2/2] Link UE4Editor-BuildingEscape-643.dll
+[2016.08.23-01.28.14:362][957]CompilerResultsLog: Info    Creating library C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-643.lib and object C:\Users\RyanJSmith\repo_main\repo_main\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-643.exp
+[2016.08.23-01.28.14:363][957]CompilerResultsLog: Info Total build time: 7.23 seconds
+[2016.08.23-01.28.14:363][957]LogMainFrame: MainFrame: Module compiling took 7.373 seconds
+[2016.08.23-01.28.14:398][957]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2016.08.23-01.28.14:401][957]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.08.23-01.28.14:588][957]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2068 classes and 381 folders.
+[2016.08.23-01.28.14:588][957]Warning: HotReload took  7.6s.
+[2016.08.23-01.28.17:920][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.23-01.28.17:920][347]OCULUS: Debug: [HMDState] Using default profile default
+[2016.08.23-01.28.17:921][347]OCULUS: Info: IAD changed to 65.7mm
+[2016.08.23-01.28.17:921][347]LogHMD: New ovr session is created
+[2016.08.23-01.28.17:921][347]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.08.23-01.28.17:921][347]LogApp: UseVRFocus has changed to 1
+[2016.08.23-01.28.17:921][347]LogApp: HasVRFocus has changed to 1
+[2016.08.23-01.28.17:921][347]LogApp: UseVRFocus has changed to 0
+[2016.08.23-01.28.17:921][347]LogApp: HasVRFocus has changed to 0
+[2016.08.23-01.28.17:921][347]PIE: New page: PIE session: Level1 (Aug 22, 2016, 4:28:17 PM)
+[2016.08.23-01.28.17:921][347]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2016.08.23-01.28.17:933][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011994s)
+[2016.08.23-01.28.17:934][347]LogAIModule: Creating AISystem for world Level1
+[2016.08.23-01.28.17:934][347]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2016.08.23-01.28.17:935][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.013341s)
+[2016.08.23-01.28.17:973][347]LogApp: UseVRFocus has changed to 1
+[2016.08.23-01.28.17:973][347]LogApp: HasVRFocus has changed to 1
+[2016.08.23-01.28.17:973][347]LogApp: UseVRFocus has changed to 0
+[2016.08.23-01.28.17:973][347]LogApp: HasVRFocus has changed to 0
+[2016.08.23-01.28.17:979][347]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.23-01.28.17:992][347]LogInit: FAudioDevice initialized.
+[2016.08.23-01.28.18:042][347]LogWorld: Game class is 'BuildingEscapeGameMode'
+[2016.08.23-01.28.18:050][347]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.08.22-21.28.18
+[2016.08.23-01.28.18:050][347]LogWorld: Bringing up level for play took: 0.007435
+[2016.08.23-01.28.18:051][347]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.779
+[2016.08.23-01.28.18:969][456]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.18:969][456]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.18:978][457]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.18:978][457]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.18:987][458]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.18:987][458]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.18:995][459]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.18:995][459]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.19:002][460]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.19:002][460]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.19:010][461]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.19:010][461]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.19:018][462]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.19:019][462]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.19:027][463]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.19:027][463]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.19:036][464]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.19:036][464]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.19:043][465]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.19:043][465]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:077][709]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:077][709]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:085][710]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:085][710]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:094][711]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:094][711]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:102][712]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:102][712]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:110][713]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:110][713]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:118][714]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:119][714]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:127][715]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:127][715]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:135][716]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:135][716]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:144][717]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:144][717]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:152][718]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:152][718]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:161][719]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:161][719]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:169][720]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:169][720]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:177][721]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:177][721]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:185][722]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:185][722]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:194][723]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:194][723]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:202][724]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:202][724]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:210][725]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:211][725]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:219][726]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:219][726]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:227][727]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:227][727]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:235][728]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:235][728]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:244][729]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:244][729]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:252][730]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:252][730]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:260][731]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:260][731]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.21:268][732]PIE:Warning: Warning DefaultPawn_0.CollisionComponent0 has to have 'Simulate Physics' enabled if you'd like to GetMass. 
+[2016.08.23-01.28.21:269][732]LogTemp:Warning: 49.059105 on pressure plate
+[2016.08.23-01.28.23:710][ 25]LogHMD: Destroying ovr session
+[2016.08.23-01.28.23:717][ 25]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(802ccll)
+[2016.08.23-01.30.01:930][955]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.23-01.30.02:093][956]Cmd: QUIT_EDITOR
+[2016.08.23-01.30.02:987][956]LogExit: Preparing to exit.
+[2016.08.23-01.30.03:552][956]LogExit: Editor shut down
+[2016.08.23-01.30.03:553][956]LogExit: Transaction tracking system shut down
+[2016.08.23-01.30.03:680][956]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.23-01.30.03:681][956]LogExit: Object subsystem successfully closed.
+[2016.08.23-01.30.03:695][956]LogD3D11RHI: Shutdown
+[2016.08.23-01.30.03:695][956]LogD3D11RHI: CleanupD3DDevice
+[2016.08.23-01.30.03:750][956]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module BlueprintGraph (219)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (218)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (217)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (216)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module CrashTracker (215)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module WidgetCarousel (214)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module AddContentDialog (213)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module GameplayTags (212)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module EditorWidgets (211)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module CollectionManager (210)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module SceneOutliner (209)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module StatsViewer (208)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module FoliageEdit (207)
+[2016.08.23-01.30.03:757][956]LogModuleManager: Shutting down and abandoning module LandscapeEditor (206)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (205)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module ActorPickerMode (204)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module GeometryMode (203)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module TextureAlignMode (202)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module BspMode (201)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module HardwareSurvey (200)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (199)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module SequenceRecorder (198)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module AutomationWorker (197)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (196)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module PlacementMode (195)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (194)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module CharacterAI (193)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module SmartSnapping (192)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module SessionServices (191)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module ViewportSnapping (190)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module LogVisualizer (189)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (188)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module IntroTutorials (187)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (186)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (185)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (184)
+[2016.08.23-01.30.03:758][956]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (183)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (182)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (181)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (180)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module MergeActors (179)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module SizeMap (178)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module TreeMap (177)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module ReferenceViewer (176)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module LocalizationService (175)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (174)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module HardwareTargeting (173)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (172)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module UndoHistory (171)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module UserFeedback (170)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module XmlParser (169)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module Blutility (168)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (167)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (166)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module InputBindingEditor (165)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (164)
+[2016.08.23-01.30.04:334][956]LogModuleManager: Shutting down and abandoning module SettingsEditor (163)
+[2016.08.23-01.30.04:335][956]LogModuleManager: Shutting down and abandoning module ProjectLauncher (162)
+[2016.08.23-01.30.04:335][956]LogModuleManager: Shutting down and abandoning module SessionFrontend (161)
+[2016.08.23-01.30.04:335][956]LogModuleManager: Shutting down and abandoning module ProfilerClient (160)
+[2016.08.23-01.30.04:335][956]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (159)
+[2016.08.23-01.30.04:335][956]LogModuleManager: Shutting down and abandoning module DeviceManager (158)
+[2016.08.23-01.30.04:387][956]LogModuleManager: Shutting down and abandoning module AutomationController (157)
+[2016.08.23-01.30.04:387][956]LogModuleManager: Shutting down and abandoning module AutomationWindow (156)
+[2016.08.23-01.30.04:387][956]LogModuleManager: Shutting down and abandoning module Layers (155)
+[2016.08.23-01.30.04:387][956]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (154)
+[2016.08.23-01.30.04:387][956]LogModuleManager: Shutting down and abandoning module DetailCustomizations (153)
+[2016.08.23-01.30.04:387][956]LogModuleManager: Shutting down and abandoning module PackagesDialog (152)
+[2016.08.23-01.30.04:387][956]LogModuleManager: Shutting down and abandoning module Persona (151)
+[2016.08.23-01.30.04:387][956]LogModuleManager: Shutting down and abandoning module Kismet (150)
+[2016.08.23-01.30.04:387][956]LogModuleManager: Shutting down and abandoning module GraphEditor (149)
+[2016.08.23-01.30.04:387][956]LogModuleManager: Shutting down and abandoning module ClassViewer (148)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module Toolbox (147)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module ModuleUI (146)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module MovieSceneTools (145)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module OutputLog (144)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module GammaUI (143)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module Documentation (142)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (141)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module AnalyticsET (140)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module Analytics (139)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module PortalServices (138)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module PortalRpc (137)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module MessagingRpc (136)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module GameplayDebugger (135)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module AITestSuite (134)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module AIModule (133)
+[2016.08.23-01.30.04:388][956]LogModuleManager: Shutting down and abandoning module ProfilerService (132)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module TaskGraph (131)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module SubstanceEditor (130)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module SlateRemote (129)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module SteamVRController (128)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module SteamVR (127)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (126)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module OculusLibrary (125)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module OculusInput (124)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (123)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module CableComponent (122)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (121)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (120)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module HTML5Networking (119)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module SuperSearch (118)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (117)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (116)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module PluginBrowser (115)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module EpicSurvey (114)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2016.08.23-01.30.04:520][956]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2016.08.23-01.30.04:521][956]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2016.08.23-01.30.04:521][956]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2016.08.23-01.30.04:521][956]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2016.08.23-01.30.04:521][956]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2016.08.23-01.30.04:521][956]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2016.08.23-01.30.04:521][956]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2016.08.23-01.30.04:521][956]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2016.08.23-01.30.04:521][956]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2016.08.23-01.30.04:521][956]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2016.08.23-01.30.04:521][956]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.08.23-01.30.04:522][956]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2016.08.23-01.30.04:522][956]LogModuleManager: Shutting down and abandoning module BuildingEscape (97)
+[2016.08.23-01.30.04:522][956]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module SubstanceCore (95)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module Media (91)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module MediaAssets (89)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (88)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (87)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (86)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module VREditor (85)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (84)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module PropertyEditor (83)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (82)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module FunctionalTesting (81)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (80)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module Sequencer (79)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (78)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module MessageLog (77)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module AssetTools (76)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module UMGEditor (75)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module UMG (74)
+[2016.08.23-01.30.04:622][956]LogModuleManager: Shutting down and abandoning module SlateReflector (73)
+[2016.08.23-01.30.04:623][956]LogModuleManager: Shutting down and abandoning module Slate (72)
+[2016.08.23-01.30.04:623][956]LogModuleManager: Shutting down and abandoning module EditorStyle (71)
+[2016.08.23-01.30.04:624][956]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (70)
+[2016.08.23-01.30.04:624][956]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (69)
+[2016.08.23-01.30.04:624][956]LogModuleManager: Shutting down and abandoning module XAudio2 (68)
+[2016.08.23-01.30.04:624][956]LogModuleManager: Shutting down and abandoning module Networking (66)
+[2016.08.23-01.30.04:624][956]LogModuleManager: Shutting down and abandoning module Core (65)
+[2016.08.23-01.30.04:624][956]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (64)
+[2016.08.23-01.30.04:625][956]LogModuleManager: Shutting down and abandoning module AssetRegistry (63)
+[2016.08.23-01.30.04:678][956]LogModuleManager: Shutting down and abandoning module KismetCompiler (62)
+[2016.08.23-01.30.04:678][956]LogModuleManager: Shutting down and abandoning module PhysXFormats (61)
+[2016.08.23-01.30.04:678][956]LogModuleManager: Shutting down and abandoning module MeshUtilities (60)
+[2016.08.23-01.30.04:678][956]LogModuleManager: Shutting down and abandoning module DerivedDataCache (59)
+[2016.08.23-01.30.04:778][956]LogDerivedDataCache: Shutdown
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (58)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (57)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (56)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (55)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (54)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (53)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (52)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (51)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module ImageWrapper (50)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (49)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (48)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (47)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (46)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (45)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (44)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (43)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (42)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (41)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module Messaging (40)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (39)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (38)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (37)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (36)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (35)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (34)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (33)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (32)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (31)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (30)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (20)
+[2016.08.23-01.30.04:778][956]LogModuleManager: Shutting down and abandoning module HTTP (19)
+[2016.08.23-01.30.06:281][956]LogModuleManager: Shutting down and abandoning module XMPP (18)
+[2016.08.23-01.30.06:281][956]LogModuleManager: Shutting down and abandoning module OculusRift (17)
+[2016.08.23-01.30.06:282][956]LogHMD: Oculus shutdown.
+[2016.08.23-01.30.06:282][956]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (16)
+[2016.08.23-01.30.06:282][956]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2016.08.23-01.30.06:282][956]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.23-01.30.06:282][956]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.23-01.30.06:282][956]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.23-01.30.06:282][956]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.23-01.30.06:284][956]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.23-01.30.06:284][956]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.23-01.30.06:284][956]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.23-01.30.06:284][956]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.23-01.30.06:284][956]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.23-01.30.06:284][956]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.23-01.30.06:284][956]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.23-01.30.06:284][956]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.23-01.30.06:284][956]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.23-01.30.06:284][956]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.23-01.30.06:285][956]LogExit: Exiting.
+[2016.08.23-01.30.06:287][956]Log file closed, 08/22/16 21:30:06
