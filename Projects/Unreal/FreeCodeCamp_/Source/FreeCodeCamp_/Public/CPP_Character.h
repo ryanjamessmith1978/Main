@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "Kismet/GameplayStatics.h"
 #include "MyInterface.h"
+#include "CPP_InteractableActor.h"
 #include "CPP_Character.generated.h"
 
 UCLASS()
@@ -51,4 +52,7 @@ public:
 	void addToTArray();
 
 	void addToTMap();
+
+	UFUNCTION(BlueprintCallable)
+	void SpawnAnActor();
 };

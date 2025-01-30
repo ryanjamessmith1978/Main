@@ -18,6 +18,8 @@ void ACPP_Character::BeginPlay()
 	Super::BeginPlay();
 	TestBPFunc(100); // Can be called from BP too.  Implement Event in BP to create definition and execute.
 	TestBPImp(1000.0f); 
+
+
 }
 
 // Called every frame
@@ -89,4 +91,10 @@ void ACPP_Character::addToTMap()
 		FString mapVal = FString::SanitizeFloat(ele.Value);
 		UKismetSystemLibrary::PrintString(this, mapKey + ":" + mapVal);
 	}
+}
+
+void ACPP_Character::SpawnAnActor()
+{
+
+
 }
