@@ -2,6 +2,7 @@
 
 
 #include "CPP_Character.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 ACPP_Character::ACPP_Character()
@@ -18,8 +19,7 @@ void ACPP_Character::BeginPlay()
 	Super::BeginPlay();
 	TestBPFunc(100); // Can be called from BP too.  Implement Event in BP to create definition and execute.
 	TestBPImp(1000.0f); 
-
-
+	SpawnAnActor();
 }
 
 // Called every frame
@@ -95,6 +95,13 @@ void ACPP_Character::addToTMap()
 
 void ACPP_Character::SpawnAnActor()
 {
+	ACPP_InteractableActor* ia = GetWorld()->SpawnActorDeferred<ACPP_InteractableActor>(ActorToSpawn, FTransform());
+	ia->initProp = 35.35;
+	ia->FinishSpawning(FTransform());
+}
 
-
+void ACPP_Character::SetMoveComp()
+{
+	auto movementComp = GetCharacterMovement();
+	movementComp->SetMovementMode(EMovementMode::MOVE_Flying,0);
 }

@@ -15,7 +15,8 @@ ACPP_InteractableActor::ACPP_InteractableActor()
 void ACPP_InteractableActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	// initProp = 0.01;
+	UKismetSystemLibrary::PrintString(this, FString::SanitizeFloat(initProp)); // This works because BP_Character gets created first.
 }
 
 // Called every frame

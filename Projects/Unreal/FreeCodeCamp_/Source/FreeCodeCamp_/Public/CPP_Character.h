@@ -28,6 +28,10 @@ protected:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		TMap<FString, float> OurMap;
 
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<ACPP_InteractableActor> ActorToSpawn;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -50,9 +54,10 @@ public:
 	void TestBPImp_Implementation(float x); // Implementation is defined in C++, calls are without _Implementation.  
 
 	void addToTArray();
-
 	void addToTMap();
 
 	UFUNCTION(BlueprintCallable)
 	void SpawnAnActor();
+
+	void SetMoveComp();
 };
