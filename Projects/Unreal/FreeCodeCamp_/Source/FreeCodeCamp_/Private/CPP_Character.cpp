@@ -17,9 +17,9 @@ ACPP_Character::ACPP_Character()
 void ACPP_Character::BeginPlay()
 {
 	Super::BeginPlay();
-	TestBPFunc(100); // Can be called from BP too.  Implement Event in BP to create definition and execute.
-	TestBPImp(1000.0f); 
-	SpawnAnActor();
+	//TestBPFunc(100); // Can be called from BP too.  Implement Event in BP to create definition and execute.
+	//TestBPImp(1000.0f); 
+	// SpawnAnActor();
 }
 
 // Called every frame
