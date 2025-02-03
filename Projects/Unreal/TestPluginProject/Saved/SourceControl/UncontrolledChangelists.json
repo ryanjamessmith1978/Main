@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/RySmi/Source/Main/Projects/Unreal/TestPluginProject/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/RySmi/Source/Main/Projects/Unreal/TestPluginProject/Content/MyStuff/Levels/SomeLevel.umap",
+				"C:/Users/RySmi/Source/Main/Projects/Unreal/TestPluginProject/Content/MyStuff/Blueprints/Actors/PluginActor.uasset",
+				"C:/Users/RySmi/Source/Main/Projects/Unreal/TestPluginProject/Content/MyStuff/Blueprints/Actors/NewBlueprint.uasset"
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\rysmi\\source\\main\\projects\\unreal\\testpluginproject\\plugins\\testplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testplugin\\module.testplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rysmi\\source\\main\\projects\\unreal\\testpluginproject\\intermediate\\build\\win64\\x64\\testpluginprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\rysmi\\source\\main\\projects\\unreal\\testpluginproject\\plugins\\testplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testplugin\\definitions.testplugin.h",
+            "c:\\users\\rysmi\\source\\main\\projects\\unreal\\testpluginproject\\plugins\\testplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\testplugin\\uht\\testplugin.init.gen.cpp",
+            "c:\\users\\rysmi\\source\\main\\projects\\unreal\\testpluginproject\\plugins\\testplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\testplugin\\uht\\testplugininterface.gen.cpp",
+            "c:\\users\\rysmi\\source\\main\\projects\\unreal\\testpluginproject\\plugins\\testplugin\\source\\testplugin\\public\\testplugininterface.h",
+            "c:\\users\\rysmi\\source\\main\\projects\\unreal\\testpluginproject\\plugins\\testplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\testplugin\\uht\\testplugininterface.generated.h",
+            "c:\\users\\rysmi\\source\\main\\projects\\unreal\\testpluginproject\\plugins\\testplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testplugin\\permoduleinline.gen.cpp",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

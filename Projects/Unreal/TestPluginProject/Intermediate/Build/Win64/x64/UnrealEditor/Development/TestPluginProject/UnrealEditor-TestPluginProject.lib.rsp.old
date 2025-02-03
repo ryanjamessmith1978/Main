@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TestPluginProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\RySmi\Source\Main\Projects\Unreal\TestPluginProject\Intermediate\Build\Win64\x64\TestPluginProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\RySmi\Source\Main\Projects\Unreal\TestPluginProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\TestPluginProject\TestPluginProject.cpp.obj"
+"C:\Users\RySmi\Source\Main\Projects\Unreal\TestPluginProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\TestPluginProject\PerModuleInline.gen.cpp.obj"
+"C:\Users\RySmi\Source\Main\Projects\Unreal\TestPluginProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\TestPluginProject\Default.rc2.res"
+/OUT:"C:\Users\RySmi\Source\Main\Projects\Unreal\TestPluginProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\TestPluginProject\UnrealEditor-TestPluginProject.lib"

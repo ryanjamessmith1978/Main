@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\RySmi\\Source\\Main\\Projects\\Unreal\\TestPluginProject\\Source\\TestPluginProject\\TestPluginProject.Build.cs",
+		"C:\\Users\\RySmi\\Source\\Main\\Projects\\Unreal\\TestPluginProject\\Plugins\\TestPlugin\\Source\\TestPlugin\\TestPlugin.Build.cs",
+		"C:\\Users\\RySmi\\Source\\Main\\Projects\\Unreal\\TestPluginProject\\Source\\TestPluginProject.Target.cs",
+		"C:\\Users\\RySmi\\Source\\Main\\Projects\\Unreal\\TestPluginProject\\Source\\TestPluginProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.2"
+}
