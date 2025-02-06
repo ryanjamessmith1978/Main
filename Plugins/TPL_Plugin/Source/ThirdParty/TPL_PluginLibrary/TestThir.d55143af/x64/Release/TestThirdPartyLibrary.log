@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  TestClass.cpp
+  TestThirdPartyLibrary.cpp
+  TestThirdPartyLibrary.vcxproj -> C:\Users\RySmi\Source\Main\Projects\Unreal\FreeCodeCamp_\Plugins\TPL_Plugin\Source\ThirdParty\TPL_PluginLibrary\x64\Release\TestThirdPartyLibrary.lib
