@@ -18,10 +18,15 @@ public:
 
 	ABatteryPickup();
 
+	void WasCollected_Implementation() override;
 
+	UFUNCTION(BlueprintCallable, Category = Power)
+	FORCEINLINE float GetBatteryPower() const { return batteryPower; }
 
 protected:
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Power, meta = (BlueprintProtected = "true") )
+	float batteryPower;
 
 private:
 	

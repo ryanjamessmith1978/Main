@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/BoxComponent.h"
+#include "Kismet/KismetSystemLibrary.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "Pickup.h"
 #include "SpawnPickups.generated.h"
 
@@ -16,12 +19,37 @@ public:
 	// Sets default values for this actor's properties
 	ASpawnPickups();
 
-protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	FORCEINLINE UBoxComponent* GetSpawnVolume() const { return spawnVolume; }
+
+	UFUNCTION(BlueprintPure, Category = Spawn)
+	FVector GetRandomPointInVolume();
+
+protected:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Spawn)
+	TSubclassOf<APickup> whatToSpawn;
+
+	FTimerHandle spawnTimer;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Spawn)
+	float minSpawnDelay;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Spawn)
+	float maxSpawnDelay;
+
+private:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Spawn, meta = (AllowPrivateAccess = "true"))
+	UBoxComponent* spawnVolume;
+
+	void SpawnPickup();
+
+	float finalSpawnDelayTime;
 };
+
+// Where to Spawn
+// What to Spawn
+// When to Spawn (timers)

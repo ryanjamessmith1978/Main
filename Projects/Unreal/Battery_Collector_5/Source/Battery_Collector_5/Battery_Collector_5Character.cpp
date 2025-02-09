@@ -50,8 +50,13 @@ ABattery_Collector_5Character::ABattery_Collector_5Character()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	CollectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectSphere"));
+	CollectionSphere->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+	CollectionSphere->SetSphereRadius(200.0f);
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
+	initialPower = 2000.0f;
+	charPower = initialPower;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -79,6 +84,7 @@ void ABattery_Collector_5Character::SetupPlayerInputComponent(UInputComponent* P
 		// Jumping
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &ACharacter::Jump);
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
+		EnhancedInputComponent->BindAction(CollectAction, ETriggerEvent::Started, this, &ABattery_Collector_5Character::CollectPickups);
 
 		// Moving
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &ABattery_Collector_5Character::Move);
@@ -90,6 +96,48 @@ void ABattery_Collector_5Character::SetupPlayerInputComponent(UInputComponent* P
 	{
 		UE_LOG(LogTemplateCharacter, Error, TEXT("'%s' Failed to find an Enhanced Input component! This template is built to use the Enhanced Input system. If you intend to use the legacy system, then you will need to update this C++ file."), *GetNameSafe(this));
 	}
+}
+
+void ABattery_Collector_5Character::CollectPickups()
+{
+	// Get all overlapping actors and store them in array
+	TArray<AActor*> collectedPickups;
+	CollectionSphere->GetOverlappingActors(collectedPickups);
+
+	// keep track of collected power if we collect multiple batteries at once
+	float CollectedPower = 0.0f;
+
+	// For each actor we collect
+	for (auto& ele : collectedPickups)
+	{
+	// Cast<APickup> to the actor, to see if we are overlapping a pickup actor, and if true
+		APickup* currentPickup = Cast<APickup>(ele);
+	// if pickup is valid and active
+		if (currentPickup && currentPickup->IsPendingKillEnabled() && currentPickup->GetIsActive())
+		{
+			// Call the Pickups_WasCollected func & deactivate the pickup
+			currentPickup->WasCollected();
+
+			// Cast to ABatteryPickup for power boost
+			ABatteryPickup* testBattery = Cast<ABatteryPickup>(currentPickup);
+			if (testBattery)
+			{
+				CollectedPower += testBattery->GetBatteryPower();				
+			}
+
+			currentPickup->SetIsActive(false);
+		}
+	}
+
+	if (CollectedPower > 0)
+		UpdatePower(CollectedPower);
+
+}
+
+void ABattery_Collector_5Character::UpdatePower(float powerChange)
+{
+	// The amount to change the power by.
+	charPower += powerChange;
 }
 
 void ABattery_Collector_5Character::Move(const FInputActionValue& Value)
