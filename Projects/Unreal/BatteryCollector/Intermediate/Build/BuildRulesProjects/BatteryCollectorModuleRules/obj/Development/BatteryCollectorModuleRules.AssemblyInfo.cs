@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BatteryCollectorModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a5ec8f62585b55fb7bb4daec7e056e3162826da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84f60c4a484c9fa8dddf4dd22c299ac0db670d9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BatteryCollectorModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BatteryCollectorModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,9 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Main/Projects/Unreal/BatteryCollector/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Core/BP_ThirdPersonCharacter.uasset",
 				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Levels/GameMap.umap",
-				"C:/Main/Projects/Unreal/BatteryCollector/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Core/BP_CharacterBase.uasset",
+				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Core/BP_GameModeBase.uasset",
+				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Core/BP_ThirdPersonCharacter.uasset"
 			]
 		}
 	]
