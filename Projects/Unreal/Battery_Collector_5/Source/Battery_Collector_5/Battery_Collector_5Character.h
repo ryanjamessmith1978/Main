@@ -74,6 +74,9 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void PowerChangeEffect();
 			
 
 protected:
@@ -85,8 +88,15 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = "Pickups")
 	void CollectPickups();
 
+protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Power)
 	float initialPower;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Power)
+	float baseSpeed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Power)
+	float speedFactor;
 
 private:
 

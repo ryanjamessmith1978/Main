@@ -57,6 +57,8 @@ ABattery_Collector_5Character::ABattery_Collector_5Character()
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 	initialPower = 2000.0f;
 	charPower = initialPower;
+	baseSpeed = 20.0f;
+	speedFactor = 0.75f;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -138,6 +140,11 @@ void ABattery_Collector_5Character::UpdatePower(float powerChange)
 {
 	// The amount to change the power by.
 	charPower += powerChange;
+	UCharacterMovementComponent* charMovement = GetCharacterMovement();
+	if (charMovement)
+		charMovement->MaxWalkSpeed = baseSpeed + speedFactor * charPower;
+
+	PowerChangeEffect();
 }
 
 void ABattery_Collector_5Character::Move(const FInputActionValue& Value)
