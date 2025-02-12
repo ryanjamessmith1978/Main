@@ -53,8 +53,7 @@ public:
 	ABatteryCollectorCharacter();
 
 	UFUNCTION(BlueprintCallable, Category = Pickup)
-	void CollectPickups();
-	
+	void CollectPickups();	
 
 protected:
 
@@ -63,11 +62,6 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
-
-
-			
-
-protected:
 
 	virtual void NotifyControllerChanged() override;
 
@@ -78,5 +72,28 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+	UFUNCTION(BlueprintPure)
+	FORCEINLINE float GetCharacterPower() const { return characterPower; }
+
+	UFUNCTION(BlueprintPure)
+	FORCEINLINE float GetInitalPower() const { return initialPower; }
+
+
+	UFUNCTION(BlueprintCallable, Category = Power)
+	void PowerChange(float pow);
+
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Power, meta = (BlueprintProtected = "true"))
+	float characterPower;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Power, meta = (BlueprintProtected = "true"))
+	float initialPower;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Power, meta = (BlueprintProtected = "true"))
+	float speedFactor;
+
+private:
+
 };
 

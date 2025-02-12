@@ -6,6 +6,7 @@
 ABatteryPickup::ABatteryPickup()
 {
 	GetMesh()->SetSimulatePhysics(true);
+	batteryPower = 100.0f;
 }
 
 void ABatteryPickup::BeginPlay()
@@ -18,5 +19,5 @@ void ABatteryPickup::WasCollected_Implementation()
 {
 	Super::WasCollected_Implementation();
 
-	SetLifeSpan(0.5f);
+	Destroy();
 }

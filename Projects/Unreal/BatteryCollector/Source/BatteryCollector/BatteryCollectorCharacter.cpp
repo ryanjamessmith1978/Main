@@ -1,8 +1,8 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "BatteryCollectorCharacter.h"
 #include "Engine/LocalPlayer.h"
 #include "PickupActor.h"
+#include "BatteryPickup.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -56,6 +56,10 @@ ABatteryCollectorCharacter::ABatteryCollectorCharacter()
 	CollectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectSphere"));
 	CollectionSphere->SetSphereRadius(200.0f);
 	CollectionSphere->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+
+	initialPower = 2000.0f;
+	characterPower = initialPower;
+	speedFactor = 0.5f;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -134,6 +138,8 @@ void ABatteryCollectorCharacter::Look(const FInputActionValue& Value)
 
 void ABatteryCollectorCharacter::CollectPickups()
 {
+	float powerChange = 0.0f;
+
 	// Get all overlapping actors
 	TArray<AActor*> overlappedActors;
 
@@ -148,6 +154,20 @@ void ABatteryCollectorCharacter::CollectPickups()
 		{
 			pickup->SetbIsActive(false);
 			pickup->WasCollected();
+			if (ABatteryPickup* battery = Cast<ABatteryPickup>(pickup))
+			{
+				powerChange += battery->GetBatteryPower();
+			}
 		}	
 	}
+	if (powerChange > 0)
+		PowerChange(powerChange);
+}
+
+void ABatteryCollectorCharacter::PowerChange(float pow)
+{
+	characterPower += pow;
+	UCharacterMovementComponent* myMovement = Cast<UCharacterMovementComponent>(GetCharacterMovement());
+	if (myMovement)
+		myMovement->MaxWalkSpeed = characterPower * speedFactor;
 }

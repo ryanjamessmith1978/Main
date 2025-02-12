@@ -51,12 +51,140 @@ DEFINE_FUNCTION(ABatteryCollectorCharacter::execCollectPickups)
 }
 // End Class ABatteryCollectorCharacter Function CollectPickups
 
+// Begin Class ABatteryCollectorCharacter Function GetCharacterPower
+struct Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics
+{
+	struct BatteryCollectorCharacter_eventGetCharacterPower_Parms
+	{
+		float ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "BatteryCollectorCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BatteryCollectorCharacter_eventGetCharacterPower_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABatteryCollectorCharacter, nullptr, "GetCharacterPower", nullptr, nullptr, Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::PropPointers), sizeof(Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::BatteryCollectorCharacter_eventGetCharacterPower_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::BatteryCollectorCharacter_eventGetCharacterPower_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ABatteryCollectorCharacter::execGetCharacterPower)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(float*)Z_Param__Result=P_THIS->GetCharacterPower();
+	P_NATIVE_END;
+}
+// End Class ABatteryCollectorCharacter Function GetCharacterPower
+
+// Begin Class ABatteryCollectorCharacter Function GetInitalPower
+struct Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics
+{
+	struct BatteryCollectorCharacter_eventGetInitalPower_Parms
+	{
+		float ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "BatteryCollectorCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BatteryCollectorCharacter_eventGetInitalPower_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABatteryCollectorCharacter, nullptr, "GetInitalPower", nullptr, nullptr, Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::PropPointers), sizeof(Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::BatteryCollectorCharacter_eventGetInitalPower_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::BatteryCollectorCharacter_eventGetInitalPower_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ABatteryCollectorCharacter::execGetInitalPower)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(float*)Z_Param__Result=P_THIS->GetInitalPower();
+	P_NATIVE_END;
+}
+// End Class ABatteryCollectorCharacter Function GetInitalPower
+
+// Begin Class ABatteryCollectorCharacter Function PowerChange
+struct Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics
+{
+	struct BatteryCollectorCharacter_eventPowerChange_Parms
+	{
+		float pow;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Power" },
+		{ "ModuleRelativePath", "BatteryCollectorCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_pow;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::NewProp_pow = { "pow", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BatteryCollectorCharacter_eventPowerChange_Parms, pow), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::NewProp_pow,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABatteryCollectorCharacter, nullptr, "PowerChange", nullptr, nullptr, Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::PropPointers), sizeof(Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::BatteryCollectorCharacter_eventPowerChange_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::BatteryCollectorCharacter_eventPowerChange_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ABatteryCollectorCharacter::execPowerChange)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_pow);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->PowerChange(Z_Param_pow);
+	P_NATIVE_END;
+}
+// End Class ABatteryCollectorCharacter Function PowerChange
+
 // Begin Class ABatteryCollectorCharacter
 void ABatteryCollectorCharacter::StaticRegisterNativesABatteryCollectorCharacter()
 {
 	UClass* Class = ABatteryCollectorCharacter::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
 		{ "CollectPickups", &ABatteryCollectorCharacter::execCollectPickups },
+		{ "GetCharacterPower", &ABatteryCollectorCharacter::execGetCharacterPower },
+		{ "GetInitalPower", &ABatteryCollectorCharacter::execGetInitalPower },
+		{ "PowerChange", &ABatteryCollectorCharacter::execPowerChange },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -153,6 +281,21 @@ struct Z_Construct_UClass_ABatteryCollectorCharacter_Statics
 		{ "ToolTip", "Look Input Action" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_characterPower_MetaData[] = {
+		{ "BlueprintProtected", "true" },
+		{ "Category", "Power" },
+		{ "ModuleRelativePath", "BatteryCollectorCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_initialPower_MetaData[] = {
+		{ "BlueprintProtected", "true" },
+		{ "Category", "Power" },
+		{ "ModuleRelativePath", "BatteryCollectorCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_speedFactor_MetaData[] = {
+		{ "BlueprintProtected", "true" },
+		{ "Category", "Power" },
+		{ "ModuleRelativePath", "BatteryCollectorCharacter.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CollectionSphere;
@@ -161,10 +304,16 @@ struct Z_Construct_UClass_ABatteryCollectorCharacter_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_JumpAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_characterPower;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_initialPower;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_speedFactor;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_ABatteryCollectorCharacter_CollectPickups, "CollectPickups" }, // 1335907311
+		{ &Z_Construct_UFunction_ABatteryCollectorCharacter_GetCharacterPower, "GetCharacterPower" }, // 3897732178
+		{ &Z_Construct_UFunction_ABatteryCollectorCharacter_GetInitalPower, "GetInitalPower" }, // 1540358020
+		{ &Z_Construct_UFunction_ABatteryCollectorCharacter_PowerChange, "PowerChange" }, // 2198175955
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -179,6 +328,9 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABatteryCollec
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_JumpAction = { "JumpAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABatteryCollectorCharacter, JumpAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_JumpAction_MetaData), NewProp_JumpAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABatteryCollectorCharacter, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABatteryCollectorCharacter, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LookAction_MetaData), NewProp_LookAction_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_characterPower = { "characterPower", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABatteryCollectorCharacter, characterPower), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_characterPower_MetaData), NewProp_characterPower_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_initialPower = { "initialPower", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABatteryCollectorCharacter, initialPower), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_initialPower_MetaData), NewProp_initialPower_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_speedFactor = { "speedFactor", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABatteryCollectorCharacter, speedFactor), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_speedFactor_MetaData), NewProp_speedFactor_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABatteryCollectorCharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_CameraBoom,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_CollectionSphere,
@@ -187,6 +339,9 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABatteryC
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_JumpAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_MoveAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_LookAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_characterPower,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_initialPower,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryCollectorCharacter_Statics::NewProp_speedFactor,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryCollectorCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ABatteryCollectorCharacter_Statics::DependentSingletons[])() = {
@@ -229,10 +384,10 @@ ABatteryCollectorCharacter::~ABatteryCollectorCharacter() {}
 struct Z_CompiledInDeferFile_FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABatteryCollectorCharacter, ABatteryCollectorCharacter::StaticClass, TEXT("ABatteryCollectorCharacter"), &Z_Registration_Info_UClass_ABatteryCollectorCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABatteryCollectorCharacter), 2578117978U) },
+		{ Z_Construct_UClass_ABatteryCollectorCharacter, ABatteryCollectorCharacter::StaticClass, TEXT("ABatteryCollectorCharacter"), &Z_Registration_Info_UClass_ABatteryCollectorCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABatteryCollectorCharacter), 1776580180U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_2931476935(TEXT("/Script/BatteryCollector"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_4011810989(TEXT("/Script/BatteryCollector"),
 	Z_CompiledInDeferFile_FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -6,12 +6,12 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Main/Projects/Unreal/BatteryCollector/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Blueprints/Actors/BP_PickupBase.uasset",
+				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Blueprints/Widgets/BPW_MainHUD.uasset",
+				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Core/BP_GameModeBase.uasset",
 				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Levels/GameMap.umap",
-				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Blueprints/Actors/BP_BatteryPickup.uasset",
-				"C:/Main/Projects/Unreal/BatteryCollector/Content/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.uasset",
-				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Blueprints/Actors/SpawnVolume.uasset",
-				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Core/BP_CharacterBase.uasset"
+				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Core/BP_CharacterBase.uasset",
+				"C:/Main/Projects/Unreal/BatteryCollector/Content/My_Particles/Beam_Emitter/P_BeamEmit1.uasset",
+				"C:/Main/Projects/Unreal/BatteryCollector/Content/MyStuff/Blueprints/Actors/BP_BatteryPickup.uasset"
 			]
 		}
 	]

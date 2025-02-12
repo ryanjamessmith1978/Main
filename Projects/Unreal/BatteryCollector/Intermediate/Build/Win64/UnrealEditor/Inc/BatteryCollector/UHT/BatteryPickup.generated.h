@@ -14,7 +14,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BATTERYCOLLECTOR_BatteryPickup_generated_h
 
-#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetBatteryPower); \
+	DECLARE_FUNCTION(execWasCollected_Implementation);
+
+
+#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABatteryPickup(); \
 	friend struct Z_Construct_UClass_ABatteryPickup_Statics; \
@@ -23,7 +28,7 @@ public: \
 	DECLARE_SERIALIZER(ABatteryPickup)
 
 
-#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABatteryPickup(ABatteryPickup&&); \
@@ -35,12 +40,13 @@ public: \
 	NO_API virtual ~ABatteryPickup();
 
 
-#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_12_PROLOG
-#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_15_GENERATED_BODY \
+#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_10_PROLOG
+#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_Public_BatteryPickup_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

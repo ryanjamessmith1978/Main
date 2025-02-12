@@ -9,12 +9,17 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ABatteryCollectorCharacter;
 #ifdef BATTERYCOLLECTOR_BatteryCollectorGameMode_generated_h
 #error "BatteryCollectorGameMode.generated.h already included, missing '#pragma once' in BatteryCollectorGameMode.h"
 #endif
 #define BATTERYCOLLECTOR_BatteryCollectorGameMode_generated_h
 
-#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetCharacter);
+
+
+#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABatteryCollectorGameMode(); \
 	friend struct Z_Construct_UClass_ABatteryCollectorGameMode_Statics; \
@@ -23,7 +28,7 @@ public: \
 	DECLARE_SERIALIZER(ABatteryCollectorGameMode)
 
 
-#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABatteryCollectorGameMode(ABatteryCollectorGameMode&&); \
@@ -35,12 +40,13 @@ public: \
 	BATTERYCOLLECTOR_API virtual ~ABatteryCollectorGameMode();
 
 
-#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_9_PROLOG
-#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_12_GENERATED_BODY \
+#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_20_PROLOG
+#define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_23_INCLASS_NO_PURE_DECLS \
+	FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,5 +56,15 @@ template<> BATTERYCOLLECTOR_API UClass* StaticClass<class ABatteryCollectorGameM
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorGameMode_h
 
+
+#define FOREACH_ENUM_EPLAYSTATE(op) \
+	op(EPlayState::EPlaying) \
+	op(EPlayState::EWon) \
+	op(EPlayState::ELost) \
+	op(EPlayState::EUnknown) 
+
+enum class EPlayState : uint8;
+template<> struct TIsUEnumClass<EPlayState> { enum { Value = true }; };
+template<> BATTERYCOLLECTOR_API UEnum* StaticEnum<EPlayState>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

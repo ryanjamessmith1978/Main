@@ -15,6 +15,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define BATTERYCOLLECTOR_BatteryCollectorCharacter_generated_h
 
 #define FID_Main_Projects_Unreal_BatteryCollector_Source_BatteryCollector_BatteryCollectorCharacter_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execPowerChange); \
+	DECLARE_FUNCTION(execGetInitalPower); \
+	DECLARE_FUNCTION(execGetCharacterPower); \
 	DECLARE_FUNCTION(execCollectPickups);
 
 

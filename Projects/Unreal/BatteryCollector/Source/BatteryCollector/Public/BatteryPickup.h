@@ -6,9 +6,7 @@
 #include "PickupActor.h"
 #include "BatteryPickup.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class BATTERYCOLLECTOR_API ABatteryPickup : public APickupActor
 {
@@ -22,7 +20,18 @@ private:
 	virtual void BeginPlay() override;
 
 public:
-
+	// Overriden BP Native Event for when a battery is collected.
+	UFUNCTION(BlueprintCallable, Category = Power)
 	virtual void WasCollected_Implementation() override;
+
+	UFUNCTION(BlueprintPure, Category = Power)
+	FORCEINLINE float GetBatteryPower()const { return batteryPower; }
+
+private:
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Power, meta = (AllowPrivateAccess = "true"))
+	float batteryPower;
+
+protected:
+
 
 };
