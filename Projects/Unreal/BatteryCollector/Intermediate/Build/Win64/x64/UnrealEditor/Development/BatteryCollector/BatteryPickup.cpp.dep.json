@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\main\\projects\\unreal\\batterycollector\\source\\batterycollector\\private\\batterypickup.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\main\\projects\\unreal\\batterycollector\\intermediate\\build\\win64\\x64\\batterycollectoreditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\main\\projects\\unreal\\batterycollector\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\batterycollector\\definitions.batterycollector.h",
+            "c:\\main\\projects\\unreal\\batterycollector\\source\\batterycollector\\public\\batterypickup.h",
+            "c:\\main\\projects\\unreal\\batterycollector\\source\\batterycollector\\public\\pickupactor.h",
+            "c:\\main\\projects\\unreal\\batterycollector\\intermediate\\build\\win64\\unrealeditor\\inc\\batterycollector\\uht\\pickupactor.generated.h",
+            "c:\\main\\projects\\unreal\\batterycollector\\intermediate\\build\\win64\\unrealeditor\\inc\\batterycollector\\uht\\batterypickup.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

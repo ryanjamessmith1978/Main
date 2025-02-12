@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Components/SphereComponent.h"
 #include "Logging/LogMacros.h"
 #include "BatteryCollectorCharacter.generated.h"
 
@@ -23,6 +24,10 @@ class ABatteryCollectorCharacter : public ACharacter
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	USpringArmComponent* CameraBoom;
+
+	/** Camera boom positioning the camera behind the character */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	USphereComponent* CollectionSphere;
 
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -46,6 +51,9 @@ class ABatteryCollectorCharacter : public ACharacter
 
 public:
 	ABatteryCollectorCharacter();
+
+	UFUNCTION(BlueprintCallable, Category = Pickup)
+	void CollectPickups();
 	
 
 protected:
@@ -55,6 +63,8 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
+
+
 			
 
 protected:

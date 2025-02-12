@@ -1,10 +1,10 @@
-Log started at 02/11/2025 15:54:35 (2025-02-11T20:54:35Z)
+Log started at 02/11/2025 17:04:05 (2025-02-11T22:04:05Z)
 No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
 No config file at C:\Users\Ryan\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
 No config file at C:\Users\Ryan\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
 Configuration will be read from:
   C:\Users\Ryan\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
-Log file: C:\Main\Projects\Unreal\BatteryCollector\Saved\Logs\UnrealVersionSelector-2025.02.11-15.54.35.log
+Log file: C:\Main\Projects\Unreal\BatteryCollector\Saved\Logs\UnrealVersionSelector-2025.02.11-17.04.04.log
 
 Setting temp directory to 'C:\Users\Ryan\AppData\Local\Temp\UnrealBuildTool\f2d894e7'
     Registering build platform: UnrealBuildTool.AndroidPlatformFactory
@@ -25,6 +25,7 @@ Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0
         Registering build platform: Win64 - buildable: True
     Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
 Log file: C:\Users\Ryan\AppData\Local\UnrealBuildTool\Log_GPF.txt
+Deleting old log file: C:\Users\Ryan\AppData\Local\UnrealBuildTool\Log_GPF-backup-2025.02.07-23.10.58.txt
 Resolved project argument C:/Main/Projects/Unreal/BatteryCollector/BatteryCollector.uproject to C:\Main\Projects\Unreal\BatteryCollector\BatteryCollector.uproject
 Registering project generator UnrealBuildTool.AndroidProjectGenerator for Android
 Skipping project file generator registration for Android due to no valid BuildPlatform.
@@ -3986,13 +3987,13 @@ Found 5 shared PCH headers (listed in order of preference):
 	Slate
 	CoreUObject
 	Core
-  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for TraceAnalysis
-  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for ACLPlugin
-  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for LiveCodingServer
-  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for ACLPluginEditor
-  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for UnrealUSDWrapper
-  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for Reflex
   CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for NNERuntimeRDG
+  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for ACLPlugin
+  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for ACLPluginEditor
+  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for Reflex
+  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for TraceAnalysis
+  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for UnrealUSDWrapper
+  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for LiveCodingServer
   CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for ChaosCachingUSD
 @progress 'Binding IntelliSense data...' 50%
 Found target: BatteryCollectorEditor
@@ -4387,9 +4388,9 @@ Found 5 shared PCH headers (listed in order of preference):
 	CoreUObject
 	Core
   CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for ACLPlugin
-  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for TraceAnalysis
   CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for ACLPluginEditor
   CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for UnrealUSDWrapper
+  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for TraceAnalysis
 @progress 'Binding IntelliSense data...' 100%
 Writing project files...
 @progress 'Writing project files...' 0%
@@ -4407,10 +4408,10 @@ Saved .vsconfig
 Project generation complete (2 generated, 51 imported)
 
 Generating QueryTargets data for editor...
-Total execution time: 7.27 seconds
+Total execution time: 25.16 seconds
 WriteFileIfChanged() wrote 32 changed files of 1807 requested writes.
 Timeline:
 
 [ 0.000]
-[ 0.000](+7.267) <unknown>
-[ 7.267]
+[ 0.000](+25.166) <unknown>
+[25.166]

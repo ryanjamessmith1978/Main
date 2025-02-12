@@ -2,6 +2,7 @@
 
 #include "BatteryCollectorCharacter.h"
 #include "Engine/LocalPlayer.h"
+#include "PickupActor.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -52,6 +53,9 @@ ABatteryCollectorCharacter::ABatteryCollectorCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
+	CollectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectSphere"));
+	CollectionSphere->SetSphereRadius(200.0f);
+	CollectionSphere->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -125,5 +129,25 @@ void ABatteryCollectorCharacter::Look(const FInputActionValue& Value)
 		// add yaw and pitch input to controller
 		AddControllerYawInput(LookAxisVector.X);
 		AddControllerPitchInput(LookAxisVector.Y);
+	}
+}
+
+void ABatteryCollectorCharacter::CollectPickups()
+{
+	// Get all overlapping actors
+	TArray<AActor*> overlappedActors;
+
+	CollectionSphere->GetOverlappingActors(overlappedActors);
+
+	// for each overlapping actor
+	for (auto ele : overlappedActors)
+	{
+		// check if actor is a pickup && check pending kill && check if pickup is active
+		APickupActor* pickup = Cast<APickupActor>(ele);
+		if (pickup && pickup->GetbIsActive() && (!pickup->IsPendingKillPending()) )
+		{
+			pickup->SetbIsActive(false);
+			pickup->WasCollected();
+		}	
 	}
 }

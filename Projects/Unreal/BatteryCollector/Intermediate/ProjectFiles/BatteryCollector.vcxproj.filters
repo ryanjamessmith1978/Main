@@ -11,6 +11,7 @@
     <None Include="..\..\Source\BatteryCollectorEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -52,6 +53,30 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\BatteryCollector\BatteryCollectorGameMode.h">
       <Filter>Source\BatteryCollector</Filter>
+    </ClCompile>
+    <Filter Include="Source\BatteryCollector\Private">
+      <UniqueIdentifier>{85AF0DDA-B8D2-3259-A159-4F7F04619E9D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BatteryCollector\Private\BatteryPickup.cpp">
+      <Filter>Source\BatteryCollector\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BatteryCollector\Private\PickupActor.cpp">
+      <Filter>Source\BatteryCollector\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BatteryCollector\Private\SpawnVolume.cpp">
+      <Filter>Source\BatteryCollector\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\BatteryCollector\Public">
+      <UniqueIdentifier>{EC68FCF3-6868-3B97-A9AC-2051ACDC413A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BatteryCollector\Public\BatteryPickup.h">
+      <Filter>Source\BatteryCollector\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BatteryCollector\Public\PickupActor.h">
+      <Filter>Source\BatteryCollector\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BatteryCollector\Public\SpawnVolume.h">
+      <Filter>Source\BatteryCollector\Public</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
