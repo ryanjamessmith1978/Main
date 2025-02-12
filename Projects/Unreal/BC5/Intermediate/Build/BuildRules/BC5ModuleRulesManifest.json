@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\Main\\Projects\\Unreal\\BC5\\Source\\BC5\\BC5.Build.cs",
-		"C:\\Main\\Projects\\Unreal\\BC5\\Source\\BC5.Target.cs",
-		"C:\\Main\\Projects\\Unreal\\BC5\\Source\\BC5Editor.Target.cs"
-	],
-	"EngineVersion": "5.5.3"
-}
