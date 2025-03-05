@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="testApp1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class123.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class19.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class20.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class21.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class23.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class24.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class25.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class26.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class27.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class28.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class29.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class31.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class30.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class33.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class34.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class35.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class36.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class37.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class38.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class39.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class40.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class41.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class42.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class43.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class44.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class45.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class46.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class47.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class48.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class49.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class50.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="class1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class123.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class17.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class18.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class19.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class20.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class21.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class22.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class23.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class25.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class26.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class27.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class28.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class29.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class31.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class30.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class33.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class34.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class35.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class36.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class37.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class38.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class39.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class40.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class41.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class42.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class43.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class44.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class45.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class46.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class47.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class48.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class49.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class50.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
