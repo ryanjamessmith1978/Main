@@ -1,2 +1,6 @@
-*linguist-vendored
+* linguist-vendored
 *.cpp linguist-vendored=false
+*.cs linguist-vendored=false
+*.lua linguist-vendored=false
+*.aspx linguist-vendored=false
+*.html linguist-vendored=false
