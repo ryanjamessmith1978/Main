@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Robot_HeadBallModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e33a0704a64a1cd12442ccf81aa8be60f5308a34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d09c3dd712db45c7834d36ef33aafdcd1a4994e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Robot_HeadBallModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Robot_HeadBallModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,6 +11,9 @@
     <None Include="..\..\Source\Robot_HeadBallEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -52,6 +55,18 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Robot_HeadBall\Robot_HeadBallGameMode.h">
       <Filter>Source\Robot_HeadBall</Filter>
+    </ClCompile>
+    <Filter Include="Source\Robot_HeadBall\Private">
+      <UniqueIdentifier>{EC963D1A-DCD9-328E-9050-7B5E41C56DF2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Robot_HeadBall\Private\Goal.cpp">
+      <Filter>Source\Robot_HeadBall\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Robot_HeadBall\Public">
+      <UniqueIdentifier>{C1492F0A-6358-3C96-AB5A-D26BCAD09C62}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Robot_HeadBall\Public\Goal.h">
+      <Filter>Source\Robot_HeadBall\Public</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
