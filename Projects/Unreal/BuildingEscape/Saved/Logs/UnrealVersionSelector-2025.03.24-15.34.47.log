@@ -1,0 +1,75 @@
+Log started at 03/24/2025 15:34:47 (2025-03-24T19:34:47Z)
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\RySmi\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\RySmi\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\RySmi\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Log file: C:\Main\Projects\Unreal\BuildingEscape\Saved\Logs\UnrealVersionSelector-2025.03.24-15.34.47.log
+
+Setting temp directory to 'C:\Users\RySmi\AppData\Local\Temp\UnrealBuildTool\f2d894e7'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Log file: C:\Users\RySmi\AppData\Local\UnrealBuildTool\Log_GPF.txt
+Deleting old log file: C:\Users\RySmi\AppData\Local\UnrealBuildTool\Log_GPF-backup-2025.03.22-18.18.34.txt
+Resolved project argument C:/Main/Projects/Unreal/BuildingEscape/BuildingEscape.uproject to C:\Main\Projects\Unreal\BuildingEscape\BuildingEscape.uproject
+Registering project generator UnrealBuildTool.AndroidProjectGenerator for Android
+Skipping project file generator registration for Android due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.IOSProjectGenerator for IOS
+Skipping project file generator registration for IOS due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for Linux
+Skipping project file generator registration for Linux due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for LinuxArm64
+Skipping project file generator registration for LinuxArm64 due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.MacProjectGenerator for Mac
+Skipping project file generator registration for Mac due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.TVOSProjectGenerator for TVOS
+Skipping project file generator registration for TVOS due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.WindowsProjectGenerator for Win64
+Registering project generator UnrealBuildTool.VisionOSProjectGenerator for VisionOS
+Skipping project file generator registration for VisionOS due to no valid BuildPlatform.
+
+---   SDK INFO START   ---
+---   SDK INFO END   ---
+
+
+Generating VisualStudio project files:
+Discovering modules, targets and source code for project...
+Updating C:\Program Files\Epic Games\UE_5.5\Engine\Intermediate\ProjectFiles\PrimaryProjectName.txt: contents have changed. Saving previous version to C:\Program Files\Epic Games\UE_5.5\Engine\Intermediate\ProjectFiles\PrimaryProjectName.txt.old.
+Updating C:\Program Files\Epic Games\UE_5.5\Engine\Intermediate\ProjectFiles\PrimaryProjectPath.txt: contents have changed. Saving previous version to C:\Program Files\Epic Games\UE_5.5\Engine\Intermediate\ProjectFiles\PrimaryProjectPath.txt.old.
+Found VisualStudio2022 installation: C:\Program Files\Microsoft Visual Studio\2022\Professional (Product=Microsoft.VisualStudio.Product.Professional, Version=17.13.35913.81)
+Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130 (Family=14.38.33130, FamilyRank=0, Version=14.38.33145, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Redist\MSVC\14.38.33130)
+Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.43.34808 (Family=14.43.34808, FamilyRank=1, Version=14.43.34809, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Redist\MSVC\14.42.34433)
+Detected supported platforms: Win64
+Skipping C:\Program Files\Epic Games\UE_5.5\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping C:\Program Files\Epic Games\UE_5.5\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Compiling C:\Main\Projects\Unreal\BuildingEscape\Intermediate\Build\BuildRules\BuildingEscapeModuleRules.dll: Assembly does not exist
+C:\Main\Projects\Unreal\BuildingEscape\Source\BuildingEscape.Target.cs(19,12): error CS0246: The type or namespace name 'UEBuildBinaryConfiguration' could not be found (are you missing a using directive or an assembly reference?)
+C:\Main\Projects\Unreal\BuildingEscape\Source\BuildingEscapeEditor.Target.cs(19,12): error CS0246: The type or namespace name 'UEBuildBinaryConfiguration' could not be found (are you missing a using directive or an assembly reference?)
+C:\Main\Projects\Unreal\BuildingEscape\Source\BuildingEscape.Target.cs(8,9): error CS7036: There is no argument given that corresponds to the required parameter 'target' of 'TargetRules.TargetRules(TargetInfo)'
+C:\Main\Projects\Unreal\BuildingEscape\Source\BuildingEscapeEditor.Target.cs(8,9): error CS7036: There is no argument given that corresponds to the required parameter 'target' of 'TargetRules.TargetRules(TargetInfo)'
+C:\Main\Projects\Unreal\BuildingEscape\Source\BuildingEscape\BuildingEscape.Build.cs(7,9): error CS7036: There is no argument given that corresponds to the required parameter 'target' of 'ModuleRules.ModuleRules(ReadOnlyTargetRules)'
+Total execution time: 1.05 seconds
+Expecting to find a type to be declared in a target rules named 'BuildingEscapeTarget'.  This type must derive from the 'TargetRules' type defined by UnrealBuildTool.
+CompilationResultException: Expecting to find a type to be declared in a target rules named 'BuildingEscapeTarget'.  This type must derive from the 'TargetRules' type defined by UnrealBuildTool.
+   at UnrealBuildTool.RulesAssembly.CreateTargetRules(String TargetName, UnrealTargetPlatform Platform, UnrealTargetConfiguration Configuration, UnrealArchitectures Architectures, FileReference ProjectFile, CommandLineArguments Arguments, ILogger Logger, Boolean IsTestTarget, TargetRulesValidationOptions ValidationOptions, UnrealIntermediateEnvironment IntermediateEnvironment) in C:\Program Files\Epic Games\UE_5.5\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:line 884
+   at UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, String[] Arguments, List`1 EngineProjects, List`1 GameProjects, Dictionary`2 ProjectFileToUProjectFile, Dictionary`2 ProgramProjects, Dictionary`2 RulesAssemblies, ILogger Logger) in C:\Program Files\Epic Games\UE_5.5\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 2799
+   at UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments, Boolean bCacheDataForEditor, ILogger Logger) in C:\Program Files\Epic Games\UE_5.5\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 1048
+   at UnrealBuildTool.GenerateProjectFilesMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger) in C:\Program Files\Epic Games\UE_5.5\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:line 260
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in C:\Program Files\Epic Games\UE_5.5\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 687
+WriteFileIfChanged() wrote 2 changed files of 2 requested writes.
+Timeline:
+
+[ 0.000]
+[ 0.000](+1.061) <unknown>
+[ 1.061]
