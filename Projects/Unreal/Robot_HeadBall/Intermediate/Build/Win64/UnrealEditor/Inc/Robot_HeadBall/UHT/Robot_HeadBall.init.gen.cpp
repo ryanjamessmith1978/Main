@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeRobot_HeadBall_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x02018960,
-				0x52A60A29,
+				0x2F7EB119,
+				0x45632BBB,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Robot_HeadBall.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Robot_HeadBall.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Robot_HeadBall(Z_Construct_UPackage__Script_Robot_HeadBall, TEXT("/Script/Robot_HeadBall"), Z_Registration_Info_UPackage__Script_Robot_HeadBall, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x02018960, 0x52A60A29));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Robot_HeadBall(Z_Construct_UPackage__Script_Robot_HeadBall, TEXT("/Script/Robot_HeadBall"), Z_Registration_Info_UPackage__Script_Robot_HeadBall, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x2F7EB119, 0x45632BBB));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

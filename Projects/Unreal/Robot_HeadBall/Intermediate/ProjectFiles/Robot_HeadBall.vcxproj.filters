@@ -59,12 +59,18 @@
     <Filter Include="Source\Robot_HeadBall\Private">
       <UniqueIdentifier>{EC963D1A-DCD9-328E-9050-7B5E41C56DF2}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Robot_HeadBall\Private\Ball.cpp">
+      <Filter>Source\Robot_HeadBall\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Robot_HeadBall\Private\Goal.cpp">
       <Filter>Source\Robot_HeadBall\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Robot_HeadBall\Public">
       <UniqueIdentifier>{C1492F0A-6358-3C96-AB5A-D26BCAD09C62}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Robot_HeadBall\Public\Ball.h">
+      <Filter>Source\Robot_HeadBall\Public</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Robot_HeadBall\Public\Goal.h">
       <Filter>Source\Robot_HeadBall\Public</Filter>
     </ClCompile>
