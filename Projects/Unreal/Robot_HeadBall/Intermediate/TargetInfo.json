@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Robot_HeadBall",
+			"Path": "..\\Source\\Robot_HeadBall.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Robot_HeadBallEditor",
+			"Path": "..\\Source\\Robot_HeadBallEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

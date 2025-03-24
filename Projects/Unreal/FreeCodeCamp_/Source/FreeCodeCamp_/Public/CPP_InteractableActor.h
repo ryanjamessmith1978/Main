@@ -5,10 +5,11 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "MyInterface.h"
+#include "TestPluginInterface.h"
 #include "CPP_InteractableActor.generated.h"
 
 UCLASS()
-class FREECODECAMP__API ACPP_InteractableActor : public AActor, public IMyInterface
+class FREECODECAMP__API ACPP_InteractableActor : public AActor, public IMyInterface, public ITestPluginInterface
 {
 	GENERATED_BODY()
 	

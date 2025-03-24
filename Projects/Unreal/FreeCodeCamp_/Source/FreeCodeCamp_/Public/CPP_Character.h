@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "Kismet/GameplayStatics.h"
 #include "MyInterface.h"
+#include "TestPluginInterface.h"
 #include "CPP_InteractableActor.h"
 #include "CPP_Character.generated.h"
 
