@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\main\\projects\\unreal\\robots_headball\\source\\robots_headball\\private\\rhb_playercontroller.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\main\\projects\\unreal\\robots_headball\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\robots_headball\\definitions.robots_headball.h",
+            "c:\\main\\projects\\unreal\\robots_headball\\source\\robots_headball\\public\\rhb_playercontroller.h",
+            "c:\\main\\projects\\unreal\\robots_headball\\intermediate\\build\\win64\\unrealeditor\\inc\\robots_headball\\uht\\rhb_playercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
