@@ -5,7 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Main/Projects/Unreal/Robots_HeadBall/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+				"C:/Main/Projects/Unreal/Robots_HeadBall/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Main/Projects/Unreal/Robots_HeadBall/Content/_RHB_MAIN/Blueprints/BP_RHB_Character.uasset",
+				"C:/Main/Projects/Unreal/Robots_HeadBall/Content/_RHB_MAIN/Blueprints/AActors/BP_RHB_GameBall.uasset"
 			]
 		}
 	]
