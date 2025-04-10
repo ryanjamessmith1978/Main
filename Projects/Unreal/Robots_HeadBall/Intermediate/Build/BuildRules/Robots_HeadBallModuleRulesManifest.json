@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\Main\\Projects\\Unreal\\Robots_HeadBall\\Source\\Robots_HeadBall\\Robots_HeadBall.Build.cs",
-		"C:\\Main\\Projects\\Unreal\\Robots_HeadBall\\Source\\Robots_HeadBall.Target.cs",
-		"C:\\Main\\Projects\\Unreal\\Robots_HeadBall\\Source\\Robots_HeadBallEditor.Target.cs"
-	],
-	"EngineVersion": "5.5.4"
-}
