@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\Main\\Projects\\Unreal\\BuildingEscape\\Source\\BuildingEscape\\BuildingEscape.Build.cs",
-		"C:\\Main\\Projects\\Unreal\\BuildingEscape\\Source\\BuildingEscape.Target.cs",
-		"C:\\Main\\Projects\\Unreal\\BuildingEscape\\Source\\BuildingEscapeEditor.Target.cs"
-	],
-	"EngineVersion": "5.5.4"
-}
